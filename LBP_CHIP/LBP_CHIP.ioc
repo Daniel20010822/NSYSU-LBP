@@ -1,0 +1,66 @@
+(globals
+    version = 3
+    io_order = default
+)
+(iopad
+    (top
+    (inst   name = "PAD_I_clk"              orientation = R180                      place_status = placed)
+    (inst   name = "PAD_I_reset"            orientation = R180                      place_status = placed)
+    (inst   name = "PAD_I_gray_ready"       orientation = R180                      place_status = placed)
+    (inst   name = "PAD_IOVDD1"             orientation = R180  cell = "VCC3IOD"    place_status = placed)
+    (inst   name = "PAD_CoreVDD1"           orientation = R180  cell = "VCCKD"      place_status = placed)
+    (inst   name = "PAD_CoreVSS1"           orientation = R180  cell = "GNDKD"      place_status = placed)
+    (inst   name = "PAD_IOVSS1"             orientation = R180  cell = "GNDIOD"     place_status = placed)
+    (inst   name = "PAD_O_gray_req"         orientation = R180                      place_status = placed)
+    (inst   name = "PAD_O_lbp_valid"        orientation = R180                      place_status = placed)
+    (inst   name = "PAD_O_finish"           orientation = R180                      place_status = placed)
+    )
+    (right
+    (inst   name = "PAD_I_gray_data7"       orientation = R90                       place_status = placed)
+    (inst   name = "PAD_I_gray_data6"       orientation = R90                       place_status = placed)
+    (inst   name = "PAD_I_gray_data5"       orientation = R90                       place_status = placed)
+    (inst   name = "PAD_IOVSS2"             orientation = R90   cell = "GNDIOD"     place_status = placed)
+    (inst   name = "PAD_CoreVSS2"           orientation = R90   cell = "GNDKD"      place_status = placed)
+    (inst   name = "PAD_CoreVDD2"           orientation = R90   cell = "VCCKD"      place_status = placed)
+    (inst   name = "PAD_IOVDD2"             orientation = R90   cell = "VCC3IOD"    place_status = placed)
+    (inst   name = "PAD_I_gray_data4"       orientation = R90                       place_status = placed)
+    (inst   name = "PAD_I_gray_data3"       orientation = R90                       place_status = placed)
+    (inst   name = "PAD_I_gray_data2"       orientation = R90                       place_status = placed)
+    )
+    (bottom
+    (inst   name = "PAD_O_gray_addr_qtr3"   orientation = R0                        place_status = placed)
+    (inst   name = "PAD_O_gray_addr_qtr2"   orientation = R0                        place_status = placed)
+    (inst   name = "PAD_O_gray_addr_qtr1"   orientation = R0                        place_status = placed)
+    (inst   name = "PAD_IOVSS3"             orientation = R0    cell = "GNDIOD"     place_status = placed)
+    (inst   name = "PAD_CoreVSS3"           orientation = R0    cell = "GNDKD"      place_status = placed)
+    (inst   name = "PAD_CoreVDD3"           orientation = R0    cell = "VCCKD"      place_status = placed)
+    (inst   name = "PAD_IOVDD3"             orientation = R0    cell = "VCC3IOD"    place_status = placed)
+    (inst   name = "PAD_O_gray_addr_qtr0"   orientation = R0                        place_status = placed)
+    (inst   name = "PAD_I_gray_data1"       orientation = R0                        place_status = placed)
+    (inst   name = "PAD_I_gray_data0"       orientation = R0                        place_status = placed)
+    )
+    (left
+    (inst   name = "PAD_O_lbp_data_qtr1"   orientation = R270                       place_status = placed)
+    (inst   name = "PAD_O_lbp_data_qtr0"   orientation = R270                       place_status = placed)
+    (inst   name = "PAD_O_lbp_addr_qtr3"   orientation = R270                       place_status = placed)
+    (inst   name = "PAD_IOVDD4"            orientation = R270   cell = "VCC3IOD"    place_status = placed)
+    (inst   name = "PAD_CoreVDD4"          orientation = R270   cell = "VCCKD"      place_status = placed)
+    (inst   name = "PAD_CoreVSS4"          orientation = R270   cell = "GNDKD"      place_status = placed)
+    (inst   name = "PAD_IOVSS4"            orientation = R270   cell = "GNDIOD"     place_status = placed)
+    (inst   name = "PAD_O_lbp_addr_qtr2"   orientation = R270                       place_status = placed)
+    (inst   name = "PAD_O_lbp_addr_qtr1"   orientation = R270                       place_status = placed)
+    (inst   name = "PAD_O_lbp_addr_qtr0"   orientation = R270                       place_status = placed)
+    )
+    (topright
+    (inst   name = "CORNER0"               orientation = R0     cell = "CORNERD"    place_status = placed)
+    )
+    (topleft
+    (inst   name = "CORNER1"               orientation = R90    cell = "CORNERD"    place_status = placed)
+    )
+    (bottomright
+    (inst   name = "CORNER2"               orientation = R270   cell = "CORNERD"    place_status = placed)
+    )
+    (bottomleft
+    (inst   name = "CORNER3"               orientation = R180   cell = "CORNERD"    place_status = placed)
+    )
+)

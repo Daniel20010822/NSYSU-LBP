@@ -1,0 +1,58 @@
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : LBP
+Version: P-2019.03
+Date   : Fri Aug  6 14:41:33 2021
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: fsm/cycle_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: gray_addr_ctrl/gray_addr_row_reg[6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  fsm/cycle_reg[0]/CK (DFFRX1)                            0.00       5.00 r
+  fsm/cycle_reg[0]/Q (DFFRX1)                             0.66       5.66 r
+  fsm/cycle[0] (FSM)                                      0.00       5.66 r
+  gray_addr_ctrl/cycle[0] (gray_addr_ctrl)                0.00       5.66 r
+  gray_addr_ctrl/U20/Y (OR2X1)                            0.20       5.86 r
+  gray_addr_ctrl/U98/Y (OAI2BB1X1)                        0.06       5.92 f
+  gray_addr_ctrl/add_0_root_r401/B[1] (gray_addr_ctrl_DW01_add_3)
+                                                          0.00       5.92 f
+  gray_addr_ctrl/add_0_root_r401/U1_1/CO (ADDFXL)         0.61       6.54 f
+  gray_addr_ctrl/add_0_root_r401/U1_2/CO (ADDFXL)         0.38       6.91 f
+  gray_addr_ctrl/add_0_root_r401/U1_3/CO (ADDFXL)         0.38       7.29 f
+  gray_addr_ctrl/add_0_root_r401/U1_4/CO (ADDFXL)         0.38       7.67 f
+  gray_addr_ctrl/add_0_root_r401/U1_5/CO (ADDFXL)         0.38       8.05 f
+  gray_addr_ctrl/add_0_root_r401/U1_6/Y (XOR3X1)          0.21       8.26 f
+  gray_addr_ctrl/add_0_root_r401/SUM[6] (gray_addr_ctrl_DW01_add_3)
+                                                          0.00       8.26 f
+  gray_addr_ctrl/U33/Y (AOI222XL)                         0.33       8.59 r
+  gray_addr_ctrl/U32/Y (CLKINVX1)                         0.08       8.67 f
+  gray_addr_ctrl/gray_addr_row_reg[6]/D (DFFRX1)          0.00       8.67 f
+  data arrival time                                                  8.67
+
+  clock clk (rise edge)                                  15.00      15.00
+  clock network delay (ideal)                             0.00      15.00
+  gray_addr_ctrl/gray_addr_row_reg[6]/CK (DFFRX1)         0.00      15.00 r
+  library setup time                                     -0.21      14.79
+  data required time                                                14.79
+  --------------------------------------------------------------------------
+  data required time                                                14.79
+  data arrival time                                                 -8.67
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.12
+
+

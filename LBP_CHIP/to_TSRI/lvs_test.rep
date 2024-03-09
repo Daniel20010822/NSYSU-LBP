@@ -1,0 +1,582 @@
+
+LVS Netlist Compiler - Errors and Warnings for "source.spi"
+-----------------------------------------------------------
+
+Warning: Duplicate subckt definition "TIE1" at line 8 in file "source.spi"
+         previously defined at line 1178 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "BUF6CK" at line 11 in file "source.spi"
+         previously defined at line 308 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "ND2" at line 14 in file "source.spi"
+         previously defined at line 842 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "OA112" at line 17 in file "source.spi"
+         previously defined at line 767 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "OA13S" at line 20 in file "source.spi"
+         previously defined at line 911 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "AN3B2S" at line 23 in file "source.spi"
+         previously defined at line 14 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "AN2" at line 26 in file "source.spi"
+         previously defined at line 59 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "QDFFRBN" at line 29 in file "source.spi"
+         previously defined at line 1088 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "QDFFN" at line 32 in file "source.spi"
+         previously defined at line 1094 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "OA12" at line 35 in file "source.spi"
+         previously defined at line 929 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "INV1S" at line 38 in file "source.spi"
+         previously defined at line 530 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "NR2" at line 41 in file "source.spi"
+         previously defined at line 803 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "ND3" at line 44 in file "source.spi"
+         previously defined at line 827 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "AOI12HS" at line 47 in file "source.spi"
+         previously defined at line 209 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "OAI22S" at line 50 in file "source.spi"
+         previously defined at line 998 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "XOR2HS" at line 53 in file "source.spi"
+         previously defined at line 1133 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "NR2P" at line 56 in file "source.spi"
+         previously defined at line 797 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "AN4B1S" at line 59 in file "source.spi"
+         previously defined at line 131 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "AOI13HS" at line 62 in file "source.spi"
+         previously defined at line 197 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "AOI22S" at line 65 in file "source.spi"
+         previously defined at line 173 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "MOAI1S" at line 68 in file "source.spi"
+         previously defined at line 605 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "XNR2HS" at line 71 in file "source.spi"
+         previously defined at line 1169 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "OAI112HS" at line 74 in file "source.spi"
+         previously defined at line 875 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "NR3H" at line 77 in file "source.spi"
+         previously defined at line 788 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "AO222" at line 80 in file "source.spi"
+         previously defined at line 74 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "HA1" at line 83 in file "source.spi"
+         previously defined at line 572 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "FA1S" at line 86 in file "source.spi"
+         previously defined at line 491 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "XOR3" at line 89 in file "source.spi"
+         previously defined at line 1127 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "OR2" at line 92 in file "source.spi"
+         previously defined at line 995 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "INV2" at line 95 in file "source.spi"
+         previously defined at line 527 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "OAI222S" at line 98 in file "source.spi"
+         previously defined at line 1010 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "AO12" at line 101 in file "source.spi"
+         previously defined at line 101 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "OAI12HS" at line 104 in file "source.spi"
+         previously defined at line 863 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "MOAI1" at line 107 in file "source.spi"
+         previously defined at line 617 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "BUF8CK" at line 110 in file "source.spi"
+         previously defined at line 302 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "OR3S" at line 113 in file "source.spi"
+         previously defined at line 941 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "INV3" at line 116 in file "source.spi"
+         previously defined at line 521 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "OA222" at line 119 in file "source.spi"
+         previously defined at line 902 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "OR3B2" at line 122 in file "source.spi"
+         previously defined at line 956 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "DFFSBN" at line 125 in file "source.spi"
+         previously defined at line 389 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "MUX2" at line 128 in file "source.spi"
+         previously defined at line 584 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "NR3" at line 131 in file "source.spi"
+         previously defined at line 791 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "ND2P" at line 134 in file "source.spi"
+         previously defined at line 836 in file "umc18_core_lvs.spi"
+Warning: Duplicate subckt definition "XMD" at line 137 in file "source.spi"
+         previously defined at line 19 in file "umc18_io_lvs.spi"
+Warning: Duplicate subckt definition "YA2GSD" at line 140 in file "source.spi"
+         previously defined at line 13 in file "umc18_io_lvs.spi"
+
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         lvs_test.rep
+LAYOUT NAME:              layout.spi ('LBP_CHIP')
+SOURCE NAME:              source.spi ('LBP_CHIP')
+RULE FILE:                G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P8_m.txt
+RULE FILE TITLE:          LVS of UMC 0.18um 1.8V/3.3V 1P6M MMC Mixed Mode/RFCMOS Process
+HCELL FILE:               (-automatch)
+CREATION TIME:            Sun Oct 24 19:40:03 2021
+CURRENT DIRECTORY:        /home/UISG111/UISG111a01/modules/LBP_CHIP_v2/LVS
+USER NAME:                UISG111a01
+CALIBRE VERSION:          v2020.2_14.12    Thu Apr 2 15:39:27 PDT 2020
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  CORRECT        LBP_CHIP                      LBP_CHIP
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "?VDD?" "?VCC?"
+   LVS GROUND NAME                        "?VSS?" "?GND?"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    NONE
+   // LVS HCELL REPORT
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             YES
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            YES
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            YES
+   SOURCE CASE                            YES
+   LVS COMPARE CASE                       NO
+   LVS COMPARE CASE STRICT                NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     1000
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   LVS REPORT OPTION                      A B C D S
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+   LVS PREFER PORT NETS                   NO
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+
+   LVS REDUCE  C(MIMCAPM_RF)  PARALLEL NO
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(n_18_g2)  l l 3
+   TRACE PROPERTY  mn(n_18_g2)  w w 3
+   TRACE PROPERTY  mp(p_18_g2)  l l 3
+   TRACE PROPERTY  mp(p_18_g2)  w w 3
+   TRACE PROPERTY  mn(n_18_mm)  l l 3
+   TRACE PROPERTY  mn(n_18_mm)  w w 3
+   TRACE PROPERTY  mp(p_18_mm)  l l 3
+   TRACE PROPERTY  mp(p_18_mm)  w w 3
+   TRACE PROPERTY  mn(n_lv_18_mm)  l l 3
+   TRACE PROPERTY  mn(n_lv_18_mm)  w w 3
+   TRACE PROPERTY  mp(p_lv_18_mm)  l l 3
+   TRACE PROPERTY  mp(p_lv_18_mm)  w w 3
+   TRACE PROPERTY  mn(n_33_g2)  l l 3
+   TRACE PROPERTY  mn(n_33_g2)  w w 3
+   TRACE PROPERTY  mp(p_33_g2)  l l 3
+   TRACE PROPERTY  mp(p_33_g2)  w w 3
+   TRACE PROPERTY  mn(n_33_mm)  l l 3
+   TRACE PROPERTY  mn(n_33_mm)  w w 3
+   TRACE PROPERTY  mp(p_33_mm)  l l 3
+   TRACE PROPERTY  mp(p_33_mm)  w w 3
+   TRACE PROPERTY  mn(n_lv_33_mm)  l l 3
+   TRACE PROPERTY  mn(n_lv_33_mm)  w w 3
+   TRACE PROPERTY  mp(p_lv_33_mm)  l l 3
+   TRACE PROPERTY  mp(p_lv_33_mm)  w w 3
+   TRACE PROPERTY  mn(n_zero_18_mm)  l l 3
+   TRACE PROPERTY  mn(n_zero_18_mm)  w w 3
+   TRACE PROPERTY  mn(n_zero_33_mm)  l l 3
+   TRACE PROPERTY  mn(n_zero_33_mm)  w w 3
+   TRACE PROPERTY  mn(n_bpw_18_mm)  l l 3
+   TRACE PROPERTY  mn(n_bpw_18_mm)  w w 3
+   TRACE PROPERTY  mn(n_bpw_33_mm)  l l 3
+   TRACE PROPERTY  mn(n_bpw_33_mm)  w w 3
+   TRACE PROPERTY  mn(n_po7w500_18_rf)  l l 3
+   TRACE PROPERTY  mn(n_po7w500_18_rf)  w w 3
+   TRACE PROPERTY  mp(p_po7w500_18_rf)  l l 3
+   TRACE PROPERTY  mp(p_po7w500_18_rf)  w w 3
+   TRACE PROPERTY  mn(n_po7w500_33_rf)  l l 3
+   TRACE PROPERTY  mn(n_po7w500_33_rf)  w w 3
+   TRACE PROPERTY  mp(p_po7w500_33_rf)  l l 3
+   TRACE PROPERTY  mp(p_po7w500_33_rf)  w w 3
+   TRACE PROPERTY  mn(n_l18w500_18_rf)  l l 3
+   TRACE PROPERTY  mn(n_l18w500_18_rf)  w w 3
+   TRACE PROPERTY  mp(p_l18w500_18_rf)  l l 3
+   TRACE PROPERTY  mp(p_l18w500_18_rf)  w w 3
+   TRACE PROPERTY  mn(n_l34w500_33_rf)  l l 3
+   TRACE PROPERTY  mn(n_l34w500_33_rf)  w w 3
+   TRACE PROPERTY  mp(p_l34w500_33_rf)  l l 3
+   TRACE PROPERTY  mp(p_l34w500_33_rf)  w w 3
+   TRACE PROPERTY  mn(n_pg400_g2)  l l 3
+   TRACE PROPERTY  mn(n_pg400_g2)  w w 3
+   TRACE PROPERTY  mn(n_pd400_g2)  l l 3
+   TRACE PROPERTY  mn(n_pd400_g2)  w w 3
+   TRACE PROPERTY  mp(p_l400_g2)  l l 3
+   TRACE PROPERTY  mp(p_l400_g2)  w w 3
+   TRACE PROPERTY  mn(n_pg1020_g2)  l l 3
+   TRACE PROPERTY  mn(n_pg1020_g2)  w w 3
+   TRACE PROPERTY  mn(n_pd1020_g2)  l l 3
+   TRACE PROPERTY  mn(n_pd1020_g2)  w w 3
+   TRACE PROPERTY  mp(p_l1020_g2)  l l 3
+   TRACE PROPERTY  mp(p_l1020_g2)  w w 3
+   TRACE PROPERTY  c(varmis_18_rf)  nf nf 3
+   TRACE PROPERTY  c(vardiop_rf)  nf nf 3
+   TRACE PROPERTY  r(rsnwell)  r r 3
+   TRACE PROPERTY  r(rsnd)  r r 3
+   TRACE PROPERTY  r(rspd)  r r 3
+   TRACE PROPERTY  r(rsnpo)  r r 3
+   TRACE PROPERTY  r(rsppo)  r r 3
+   TRACE PROPERTY  r(rnnd)  r r 3
+   TRACE PROPERTY  r(rnpd)  r r 3
+   TRACE PROPERTY  r(rnnpo)  r r 3
+   TRACE PROPERTY  r(rnnpo_mm)  r r 3
+   TRACE PROPERTY  r(rnnpo_rf)  r r 3
+   TRACE PROPERTY  r(rnppo)  r r 3
+   TRACE PROPERTY  r(rnppo_mm)  r r 3
+   TRACE PROPERTY  r(rnppo_rf)  r r 3
+   TRACE PROPERTY  r(rnhr1000_mm)  r r 3
+   TRACE PROPERTY  r(rnhr_rf)  r r 3
+   TRACE PROPERTY  r(rm1_mm)  r r 3
+   TRACE PROPERTY  r(rm2_mm)  r r 3
+   TRACE PROPERTY  r(rm3_mm)  r r 3
+   TRACE PROPERTY  r(rm4_mm)  r r 3
+   TRACE PROPERTY  r(rm5_mm)  r r 3
+   TRACE PROPERTY  r(rm6_mm)  r r 3
+   TRACE PROPERTY  c(pad_rf)  index index 3
+   TRACE PROPERTY  d(dion_g2)  p p 3
+   TRACE PROPERTY  d(dion_g2)  a a 3
+   TRACE PROPERTY  d(diop_g2)  a a 3
+   TRACE PROPERTY  d(diop_g2)  p p 3
+   TRACE PROPERTY  d(dionw_g2)  a a 3
+   TRACE PROPERTY  d(dionw_g2)  p p 3
+   TRACE PROPERTY  d(dion_mm)  a a 3
+   TRACE PROPERTY  d(dion_mm)  p p 3
+   TRACE PROPERTY  d(diop_mm)  a a 3
+   TRACE PROPERTY  d(diop_mm)  p p 3
+   TRACE PROPERTY  d(dionw_mm)  a a 3
+   TRACE PROPERTY  d(dionw_mm)  p p 3
+   TRACE PROPERTY  q(pnp_v50x50_g2)  a a 3
+   TRACE PROPERTY  q(pnp_v100x100_g2)  a a 3
+   TRACE PROPERTY  q(pnp_v50x50_mm)  a a 3
+   TRACE PROPERTY  q(pnp_v100x100_mm)  a a 3
+   TRACE PROPERTY  c(mimcaps_mm)  c c 3
+   TRACE PROPERTY  c(mimcapm_rf)  l l 3
+   TRACE PROPERTY  c(mimcapm_rf)  w w 3
+   TRACE PROPERTY  c(mimcapm_rf)  nx nx 3
+   TRACE PROPERTY  c(mimcapm_rf)  ny ny 3
+   TRACE PROPERTY  l(l_slcr20k_rf)  d d 3
+   TRACE PROPERTY  l(l_slcr20k_rf)  n n 3
+   TRACE PROPERTY  l(l_slcr20k_rf)  w w 3
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+LAYOUT CELL NAME:         LBP_CHIP
+SOURCE CELL NAME:         LBP_CHIP
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             26        26
+
+ Nets:            1003      1008    *
+
+ Instances:         21        21         AN2 (5 pins)
+                     4         4         AN3B2S (6 pins)
+                     2         2         AN4B1S (7 pins)
+                    13        13         AO12 (6 pins)
+                    19        19         AO222 (9 pins)
+                     1         1         AOI12HS (6 pins)
+                    10        10         AOI13HS (7 pins)
+                   121       121         AOI22S (7 pins)
+                     1         1         BUF6CK (4 pins)
+                     1         1         BUF8CK (4 pins)
+                     2         2         DFFSBN (7 pins)
+                    10        10         FA1S (7 pins)
+                    20        20         HA1 (6 pins)
+                   120       120         INV1S (4 pins)
+                     2         2         INV2 (4 pins)
+                     1         1         INV3 (4 pins)
+                     3         3         MOAI1 (7 pins)
+                    28        28         MOAI1S (7 pins)
+                    11        11         MUX2 (6 pins)
+                   116       116         ND2 (5 pins)
+                     2         2         ND2P (5 pins)
+                    27        27         ND3 (6 pins)
+                    70        70         NR2 (5 pins)
+                     2         2         NR2P (5 pins)
+                     1         1         NR3 (6 pins)
+                     2         2         NR3H (6 pins)
+                     2         2         OA112 (7 pins)
+                     5         5         OA12 (6 pins)
+                     1         1         OA13S (7 pins)
+                    16        16         OA222 (9 pins)
+                    26        26         OAI112HS (7 pins)
+                    18        18         OAI12HS (6 pins)
+                    17        17         OAI222S (9 pins)
+                     7         7         OAI22S (7 pins)
+                     6         6         OR2 (5 pins)
+                     5         5         OR3B2 (6 pins)
+                     1         1         OR3S (6 pins)
+                     4         4         QDFFN (5 pins)
+                   109       109         QDFFRBN (6 pins)
+                     5         5         TIE1 (3 pins)
+                    11        11         XMD (5 pins)
+                     4         4         XNR2HS (5 pins)
+                    10        10         XOR2HS (5 pins)
+                     2         2         XOR3 (6 pins)
+                    13        13         YA2GSD (7 pins)
+                ------    ------
+ Total Inst:       872       872
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             26        26
+
+ Nets:            1002      1002
+
+ Instances:         21        21         AN2 (5 pins)
+                     4         4         AN3B2S (6 pins)
+                     2         2         AN4B1S (7 pins)
+                    13        13         AO12 (6 pins)
+                    19        19         AO222 (9 pins)
+                     1         1         AOI12HS (6 pins)
+                    10        10         AOI13HS (7 pins)
+                   121       121         AOI22S (7 pins)
+                     1         1         BUF6CK (4 pins)
+                     1         1         BUF8CK (4 pins)
+                     2         2         DFFSBN (7 pins)
+                    10        10         FA1S (7 pins)
+                    20        20         HA1 (6 pins)
+                   120       120         INV1S (4 pins)
+                     2         2         INV2 (4 pins)
+                     1         1         INV3 (4 pins)
+                     3         3         MOAI1 (7 pins)
+                    28        28         MOAI1S (7 pins)
+                    11        11         MUX2 (6 pins)
+                   116       116         ND2 (5 pins)
+                     2         2         ND2P (5 pins)
+                    27        27         ND3 (6 pins)
+                    70        70         NR2 (5 pins)
+                     2         2         NR2P (5 pins)
+                     1         1         NR3 (6 pins)
+                     2         2         NR3H (6 pins)
+                     2         2         OA112 (7 pins)
+                     5         5         OA12 (6 pins)
+                     1         1         OA13S (7 pins)
+                    16        16         OA222 (9 pins)
+                    26        26         OAI112HS (7 pins)
+                    18        18         OAI12HS (6 pins)
+                    17        17         OAI222S (9 pins)
+                     7         7         OAI22S (7 pins)
+                     6         6         OR2 (5 pins)
+                     5         5         OR3B2 (6 pins)
+                     1         1         OR3S (6 pins)
+                     4         4         QDFFN (5 pins)
+                   109       109         QDFFRBN (6 pins)
+                     5         5         TIE1 (3 pins)
+                    11        11         XMD (5 pins)
+                     4         4         XNR2HS (5 pins)
+                    10        10         XOR2HS (5 pins)
+                     2         2         XOR3 (6 pins)
+                    13        13         YA2GSD (7 pins)
+                ------    ------
+ Total Inst:       872       872
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:              26         26            0            0
+
+   Nets:             1002       1002            0            0
+
+   Instances:          21         21            0            0    AN2
+                        4          4            0            0    AN3B2S
+                        2          2            0            0    AN4B1S
+                       13         13            0            0    AO12
+                       19         19            0            0    AO222
+                        1          1            0            0    AOI12HS
+                       10         10            0            0    AOI13HS
+                      121        121            0            0    AOI22S
+                        1          1            0            0    BUF6CK
+                        1          1            0            0    BUF8CK
+                        2          2            0            0    DFFSBN
+                       10         10            0            0    FA1S
+                       20         20            0            0    HA1
+                      120        120            0            0    INV1S
+                        2          2            0            0    INV2
+                        1          1            0            0    INV3
+                        3          3            0            0    MOAI1
+                       28         28            0            0    MOAI1S
+                       11         11            0            0    MUX2
+                      116        116            0            0    ND2
+                        2          2            0            0    ND2P
+                       27         27            0            0    ND3
+                       70         70            0            0    NR2
+                        2          2            0            0    NR2P
+                        1          1            0            0    NR3
+                        2          2            0            0    NR3H
+                        2          2            0            0    OA112
+                        5          5            0            0    OA12
+                        1          1            0            0    OA13S
+                       16         16            0            0    OA222
+                       26         26            0            0    OAI112HS
+                       18         18            0            0    OAI12HS
+                       17         17            0            0    OAI222S
+                        7          7            0            0    OAI22S
+                        6          6            0            0    OR2
+                        5          5            0            0    OR3B2
+                        1          1            0            0    OR3S
+                        4          4            0            0    QDFFN
+                      109        109            0            0    QDFFRBN
+                        5          5            0            0    TIE1
+                       11         11            0            0    XMD
+                        4          4            0            0    XNR2HS
+                       10         10            0            0    XOR2HS
+                        2          2            0            0    XOR3
+                       13         13            0            0    YA2GSD
+                  -------    -------    ---------    ---------
+   Total Inst:        872        872            0            0
+
+
+o Statistics:
+
+   8 source nets were deep shorted to 3.
+
+   1 layout net had all its pins removed and was deleted.
+   1 source net had all its pins removed and was deleted.
+
+
+o Initial Correspondence Points:
+
+   Ports:        VCC GND O_finish I_gray_data[2] I_gray_data[3] I_gray_data[4] I_gray_data[5]
+                 I_gray_data[6] I_gray_data[7] I_gray_data[0] O_gray_req O_lbp_valid
+                 O_gray_addr_qtr[0] I_gray_data[1] I_gray_ready O_gray_addr_qtr[1] I_clk I_reset
+                 O_gray_addr_qtr[3] O_gray_addr_qtr[2] O_lbp_addr_qtr[0] O_lbp_addr_qtr[1]
+                 O_lbp_addr_qtr[2] O_lbp_addr_qtr[3] O_lbp_data_qtr[0] O_lbp_data_qtr[1]
+
+
+o Voltage Names Matched by Wildcard:
+
+   Power Names from Layout:
+
+                 VCC
+
+   Ground Names from Layout:
+
+                 GND
+
+   Power Names from Source:
+
+                 VCC
+
+   Ground Names from Source:
+
+                 GND
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

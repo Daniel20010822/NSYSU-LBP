@@ -1,0 +1,91 @@
+###################################################################
+
+# Created by write_script -format dctcl on Thu Oct 14 22:14:27 2021
+
+###################################################################
+
+# Set the current_design #
+current_design LBP
+
+set_units -time ns -resistance kOhm -capacitance pF -voltage V -current mA
+remove_wire_load_model
+set_local_link_library                                                         \
+{fsa0m_a_generic_core_ff1p98vm40c.db,fsa0m_a_generic_core_ss1p62v125c.db,fsa0m_a_generic_core_tt1p8v25c.db,fsa0m_a_t33_generic_io_ff1p98vm40c.db,fsa0m_a_t33_generic_io_ss1p62v125c.db,fsa0m_a_t33_generic_io_tt1p8v25c.db}
+set_fix_multiple_port_nets -all -buffer_constants
+set_load -pin_load 1 [get_ports {gray_addr_qtr[3]}]
+set_load -pin_load 1 [get_ports {gray_addr_qtr[2]}]
+set_load -pin_load 1 [get_ports {gray_addr_qtr[1]}]
+set_load -pin_load 1 [get_ports {gray_addr_qtr[0]}]
+set_load -pin_load 1 [get_ports gray_req]
+set_load -pin_load 1 [get_ports {lbp_addr_qtr[3]}]
+set_load -pin_load 1 [get_ports {lbp_addr_qtr[2]}]
+set_load -pin_load 1 [get_ports {lbp_addr_qtr[1]}]
+set_load -pin_load 1 [get_ports {lbp_addr_qtr[0]}]
+set_load -pin_load 1 [get_ports lbp_valid]
+set_load -pin_load 1 [get_ports {lbp_data_qtr[1]}]
+set_load -pin_load 1 [get_ports {lbp_data_qtr[0]}]
+set_load -pin_load 1 [get_ports finish]
+create_clock [get_ports clk]  -period 8  -waveform {4 8}
+set_clock_latency 1  [get_clocks clk]
+set_input_delay -clock clk  -max 1  [get_ports clk]
+set_input_delay -clock clk  -min 0.2  [get_ports clk]
+set_input_delay -clock clk  -max 1  [get_ports {gray_data[3]}]
+set_input_delay -clock clk  -min 0.2  [get_ports {gray_data[3]}]
+set_input_delay -clock clk  -max 1  [get_ports {gray_data[6]}]
+set_input_delay -clock clk  -min 0.2  [get_ports {gray_data[6]}]
+set_input_delay -clock clk  -max 1  [get_ports {gray_data[5]}]
+set_input_delay -clock clk  -min 0.2  [get_ports {gray_data[5]}]
+set_input_delay -clock clk  -max 1  [get_ports {gray_data[0]}]
+set_input_delay -clock clk  -min 0.2  [get_ports {gray_data[0]}]
+set_input_delay -clock clk  -max 1  [get_ports {gray_data[2]}]
+set_input_delay -clock clk  -min 0.2  [get_ports {gray_data[2]}]
+set_input_delay -clock clk  -max 1  [get_ports reset]
+set_input_delay -clock clk  -min 0.2  [get_ports reset]
+set_input_delay -clock clk  -max 1  [get_ports {gray_data[1]}]
+set_input_delay -clock clk  -min 0.2  [get_ports {gray_data[1]}]
+set_input_delay -clock clk  -max 1  [get_ports gray_ready]
+set_input_delay -clock clk  -min 0.2  [get_ports gray_ready]
+set_input_delay -clock clk  -max 1  [get_ports {gray_data[7]}]
+set_input_delay -clock clk  -min 0.2  [get_ports {gray_data[7]}]
+set_input_delay -clock clk  -max 1  [get_ports {gray_data[4]}]
+set_input_delay -clock clk  -min 0.2  [get_ports {gray_data[4]}]
+set_output_delay -clock clk  -max 1  [get_ports lbp_valid]
+set_output_delay -clock clk  -min 0.1  [get_ports lbp_valid]
+set_output_delay -clock clk  -max 1  [get_ports {lbp_addr_qtr[2]}]
+set_output_delay -clock clk  -min 0.1  [get_ports {lbp_addr_qtr[2]}]
+set_output_delay -clock clk  -max 1  [get_ports finish]
+set_output_delay -clock clk  -min 0.1  [get_ports finish]
+set_output_delay -clock clk  -max 1  [get_ports {lbp_addr_qtr[1]}]
+set_output_delay -clock clk  -min 0.1  [get_ports {lbp_addr_qtr[1]}]
+set_output_delay -clock clk  -max 1  [get_ports {lbp_addr_qtr[0]}]
+set_output_delay -clock clk  -min 0.1  [get_ports {lbp_addr_qtr[0]}]
+set_output_delay -clock clk  -max 1  [get_ports {gray_addr_qtr[3]}]
+set_output_delay -clock clk  -min 0.1  [get_ports {gray_addr_qtr[3]}]
+set_output_delay -clock clk  -max 1  [get_ports {lbp_addr_qtr[3]}]
+set_output_delay -clock clk  -min 0.1  [get_ports {lbp_addr_qtr[3]}]
+set_output_delay -clock clk  -max 1  [get_ports {lbp_data_qtr[0]}]
+set_output_delay -clock clk  -min 0.1  [get_ports {lbp_data_qtr[0]}]
+set_output_delay -clock clk  -max 1  [get_ports {gray_addr_qtr[0]}]
+set_output_delay -clock clk  -min 0.1  [get_ports {gray_addr_qtr[0]}]
+set_output_delay -clock clk  -max 1  [get_ports {lbp_data_qtr[1]}]
+set_output_delay -clock clk  -min 0.1  [get_ports {lbp_data_qtr[1]}]
+set_output_delay -clock clk  -max 1  [get_ports {gray_addr_qtr[2]}]
+set_output_delay -clock clk  -min 0.1  [get_ports {gray_addr_qtr[2]}]
+set_output_delay -clock clk  -max 1  [get_ports gray_req]
+set_output_delay -clock clk  -min 0.1  [get_ports gray_req]
+set_output_delay -clock clk  -max 1  [get_ports {gray_addr_qtr[1]}]
+set_output_delay -clock clk  -min 0.1  [get_ports {gray_addr_qtr[1]}]
+set_drive 1  [get_ports clk]
+set_drive 1  [get_ports reset]
+set_drive 1  [get_ports gray_ready]
+set_drive 1  [get_ports {gray_data[7]}]
+set_drive 1  [get_ports {gray_data[6]}]
+set_drive 1  [get_ports {gray_data[5]}]
+set_drive 1  [get_ports {gray_data[4]}]
+set_drive 1  [get_ports {gray_data[3]}]
+set_drive 1  [get_ports {gray_data[2]}]
+set_drive 1  [get_ports {gray_data[1]}]
+set_drive 1  [get_ports {gray_data[0]}]
+set compile_inbound_cell_optimization false
+set compile_inbound_max_cell_percentage 10.0
+1

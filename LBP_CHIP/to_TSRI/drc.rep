@@ -1,0 +1,2553 @@
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Sun Oct 24 21:01:51 2021
+Calibre Version:           v2020.3_38.22    Tue Sep 1 16:54:05 PDT 2020
+Rule File Pathname:        calibre_drc_rule
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            ../m_LBP_CHIP.gds
+Layout Primary Cell:       LBP_CHIP
+Current Directory:         /DRC/home/autodrc/Working/queue210009_27873/calibre_drc0
+User Name:                 autodrc
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   4096
+DRC Results Database:      DRC_RES.db (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       drc.sum (REPLACE)
+Geometry Flagging:         ACUTE = YES  SKEW = NO  ANGLED = NO  OFFGRID = YES
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         NO
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+PROJECTING constraint only supported with PARALLEL ONLY - setting PARALLEL ONLY.
+PROJECTING constraint only supported with PARALLEL ONLY - setting PARALLEL ONLY.
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER IND ........... TOTAL Original Geometry Count = 0    (0)
+LAYER M1RESMK ....... TOTAL Original Geometry Count = 0    (0)
+LAYER ME1 ........... TOTAL Original Geometry Count = 3769 (1703888)
+LAYER M2RESMK ....... TOTAL Original Geometry Count = 0    (0)
+LAYER ME2 ........... TOTAL Original Geometry Count = 5561 (998802)
+LAYER M3RESMK ....... TOTAL Original Geometry Count = 0    (0)
+LAYER ME3 ........... TOTAL Original Geometry Count = 2560 (796571)
+LAYER M4RESMK ....... TOTAL Original Geometry Count = 0    (0)
+LAYER ME4 ........... TOTAL Original Geometry Count = 879  (1157874)
+LAYER M5RESMK ....... TOTAL Original Geometry Count = 0    (0)
+LAYER ME5 ........... TOTAL Original Geometry Count = 245  (1320054)
+LAYER M6RESMK ....... TOTAL Original Geometry Count = 0    (0)
+LAYER ME6 ........... TOTAL Original Geometry Count = 85   (660897)
+LAYER PAD ........... TOTAL Original Geometry Count = 1    (40)
+LAYER NWR ........... TOTAL Original Geometry Count = 1    (24)
+LAYER NWEL .......... TOTAL Original Geometry Count = 87   (5656)
+LAYER MMCTP ......... TOTAL Original Geometry Count = 0    (0)
+LAYER DP_ID ......... TOTAL Original Geometry Count = 0    (0)
+LAYER BLSP_ID1 ...... TOTAL Original Geometry Count = 0    (0)
+LAYER BDSP_ID ....... TOTAL Original Geometry Count = 0    (0)
+LAYER IOID .......... TOTAL Original Geometry Count = 2    (48)
+LAYER DIFFCUSDUMY ... TOTAL Original Geometry Count = 0    (0)
+LAYER DIFF .......... TOTAL Original Geometry Count = 690  (26142)
+LAYER TWEL .......... TOTAL Original Geometry Count = 0    (0)
+LAYER BLSP_1A ....... TOTAL Original Geometry Count = 0    (0)
+LAYER TG ............ TOTAL Original Geometry Count = 20   (268)
+LAYER PPLUS ......... TOTAL Original Geometry Count = 263  (17178)
+LAYER PO1 ........... TOTAL Original Geometry Count = 571  (15718)
+LAYER CONT .......... TOTAL Original Geometry Count = 4    (977154)
+LAYER SAB ........... TOTAL Original Geometry Count = 48   (608)
+LAYER HR ............ TOTAL Original Geometry Count = 0    (0)
+LAYER M1DUMY ........ TOTAL Original Geometry Count = 0    (0)
+LAYER M2DUMY ........ TOTAL Original Geometry Count = 0    (0)
+LAYER M3DUMY ........ TOTAL Original Geometry Count = 0    (0)
+LAYER M4DUMY ........ TOTAL Original Geometry Count = 0    (0)
+LAYER M5DUMY ........ TOTAL Original Geometry Count = 0    (0)
+LAYER M6DUMY ........ TOTAL Original Geometry Count = 0    (0)
+LAYER VTPL .......... TOTAL Original Geometry Count = 0    (0)
+LAYER VTPHL ......... TOTAL Original Geometry Count = 0    (0)
+LAYER VTNL .......... TOTAL Original Geometry Count = 0    (0)
+LAYER VTNI .......... TOTAL Original Geometry Count = 0    (0)
+LAYER VTNHL ......... TOTAL Original Geometry Count = 0    (0)
+LAYER NPLUS ......... TOTAL Original Geometry Count = 165  (14464)
+LAYER RSYMBOL ....... TOTAL Original Geometry Count = 2    (8)
+LAYER PSYMBOL ....... TOTAL Original Geometry Count = 4    (16)
+LAYER VI1 ........... TOTAL Original Geometry Count = 28   (713483)
+LAYER VI2 ........... TOTAL Original Geometry Count = 30   (319021)
+LAYER VI3 ........... TOTAL Original Geometry Count = 2216 (539427)
+LAYER VI4 ........... TOTAL Original Geometry Count = 3507 (826434)
+LAYER VI5 ........... TOTAL Original Geometry Count = 1845 (726454)
+LAYER SEALRMARK ..... TOTAL Original Geometry Count = 0    (0)
+LAYER LOGOMK ........ TOTAL Original Geometry Count = 0    (0)
+LAYER PESD .......... TOTAL Original Geometry Count = 24   (256)
+LAYER BLSPLP ........ TOTAL Original Geometry Count = 0    (0)
+LAYER M1SLMK ........ TOTAL Original Geometry Count = 0    (0)
+LAYER M2SLMK ........ TOTAL Original Geometry Count = 0    (0)
+LAYER M3SLMK ........ TOTAL Original Geometry Count = 0    (0)
+LAYER M4SLMK ........ TOTAL Original Geometry Count = 0    (0)
+LAYER M5SLMK ........ TOTAL Original Geometry Count = 0    (0)
+LAYER M6SLMK ........ TOTAL Original Geometry Count = 0    (0)
+LAYER MCAP .......... TOTAL Original Geometry Count = 0    (0)
+LAYER PO1DUMY ....... TOTAL Original Geometry Count = 0    (0)
+LAYER XOPCD ......... TOTAL Original Geometry Count = 0    (0)
+LAYER XOPCP ......... TOTAL Original Geometry Count = 0    (0)
+LAYER XOPCM1 ........ TOTAL Original Geometry Count = 0    (0)
+LAYER PWBLK ......... TOTAL Original Geometry Count = 0    (0)
+LAYER RFMMCMK ....... TOTAL Original Geometry Count = 0    (0)
+LAYER VI6 ........... TOTAL Original Geometry Count = 0    (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK Off_Grid ................................ TOTAL Result Count = 0  (0)
+RULECHECK SkewEdge ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.1A.a__4.1A.b__4.1B .................... TOTAL Result Count = 0  (0)
+RULECHECK 4.1C.a_b ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.1D.a .................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.1D.b .................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.1E .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.1F .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.1G.a .................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.1G.b .................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.1H.a .................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.1H.b .................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.1I .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.1J .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.1K.a .................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.1K.b .................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.1M .................................... TOTAL Result Count = 1  (1)
+RULECHECK 4.1N .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.2A.a .................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.2A.b .................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.2A.c .................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.2B.a .................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.2B.b1 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.2B.b2 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.2B.c_d ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.2C_2D ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.3A .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.3B.a .................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.3B.b1 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.3B.b2 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.3C .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.4A .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.4B .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.4C .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.4D .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.4E .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.4F .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.4G .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.5A .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.5B .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.5C .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.5D .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.5E .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.5F .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.5G .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.6A .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.7A.a .................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.7A.b .................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.7B .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.7C .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.7D .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.7E .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.7F .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.7G .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.7.NOTE ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.8A .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.8B .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.8C .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.8D .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.8E .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.8F .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.8G .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.8.NOTE ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.9A .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.9B .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.9C .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.9D .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.9E .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.9F .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.9G .................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.9.NOTE ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.13A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.13B ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.13C ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.13D ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.13E ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.13F ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.14A.a__4.14B.a__4.14C ................. TOTAL Result Count = 0  (0)
+RULECHECK 4.14A_14B.b ............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.14D.a1 ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.14D.a2 ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.14D.b1 ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.14D.b2 ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.14D.c1 ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.14D.c21 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.14D.c22 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.14E ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.14F ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.14G ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.14H ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.14I.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.14I.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.14J ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.14K ................................... TOTAL Result Count = 0  (0)
+RULECHECK RECOMMEND_4.14L ......................... TOTAL Result Count = 13 (233)
+RULECHECK RECOMMEND_4.14M ......................... TOTAL Result Count = 0  (0)
+RULECHECK 4.14N ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.14O ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.14P ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.15A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.15B ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.15C ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.15D ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.15E_15Note ............................ TOTAL Result Count = 0  (0)
+RULECHECK 4.15F ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.15G ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.15H ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.15I ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.15J ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.15K ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.15L_15M ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.15N ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.15O ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.15P ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.16A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.16B ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.16C.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.16C.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.16D.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.16D.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.16F_17F ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.16N ................................... TOTAL Result Count = 0  (0)
+RULECHECK RECOMMEND_4.16.ERR ...................... TOTAL Result Count = 0  (0)
+RULECHECK 4.16O ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.16P ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.17A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.17B ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.17C.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.17C.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.17D.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.17D.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.17O ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.17P ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.16H_17G ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.16G_17H ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.16J_17I ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.16I_17J ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.16L_17K ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.16K_17L ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.16M_17M ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.17N ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18B ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18E ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18F ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18G.a_b ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18H ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18C__4.18I.b__4.18T ................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18K ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18L ................................... TOTAL Result Count = 0  (0)
+RULECHECK RECOMMEND_4.18 .......................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18M ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18N ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18O ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18P ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18Q ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18R ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18S ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.18V.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.18V.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.18W.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.18W.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.18Y1.a ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.18Y1.b ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.18Y2.a ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.18Y2.b ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.18Y3.a ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.18Y3.b ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.18Y4.a ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.18Y4.b ................................ TOTAL Result Count = 0  (0)
+RULECHECK 4.19A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.19B ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.19I__4.19C.a .......................... TOTAL Result Count = 0  (0)
+RULECHECK 4.19C.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.19D ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.19E ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.19F_19G ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.20A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.20B.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.20B.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.20D.a_d ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.20D.b_c_e ............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.20E ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.21A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.21B.a_b ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.21C.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.21C.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.21C.c_d_e ............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.22A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.22B.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.22B.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.22D.a_d ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.22D.b_c_e ............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.22E ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.23A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.23B.a_b ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.23C.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.23C.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.23C.c_d_e ............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.24A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.24B.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.24B.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.24D.a_d ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.24D.b_c_e ............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.24E ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.25A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.25B.a_b ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.25C.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.25C.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.25C.c_d_e ............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.26A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.26B.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.26B.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.26D.a_d ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.26D.b_c_e ............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.26E ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.27A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.27B.a_b ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.27C.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.27C.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.27C.c_d_e ............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.28A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.28B.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.28B.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.28D.a_d ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.28D.b_c_e ............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.28E ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.30A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.30B.a_b ............................... TOTAL Result Count = 0  (0)
+RULECHECK 4.30C.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.30C.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.30C.c_d_e ............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.29A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.29B ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.29C ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.29D ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.29E ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.29F ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.29G ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.29H ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.29I.a ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.29I.b ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.29I.c ................................. TOTAL Result Count = 0  (0)
+RULECHECK 4.29J ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.29K ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.29L ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.29M_MMC_1 ............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.29M_MMC_2 ............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.29M_MMC_3 ............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.29M_MMC_4 ............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.29N ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.29NOTICE .............................. TOTAL Result Count = 1  (1)
+RULECHECK 4.29Note6_MMC_VI5 ....................... TOTAL Result Count = 0  (0)
+RULECHECK 4.31A.8KA ............................... NOT EXECUTED
+RULECHECK 4.31B.a.8KA ............................. NOT EXECUTED
+RULECHECK 4.31B.b.8KA ............................. NOT EXECUTED
+RULECHECK 4.31C.a_d.8KA ........................... NOT EXECUTED
+RULECHECK 4.31C.b_c_e.8KA ......................... NOT EXECUTED
+RULECHECK 4.31D.8KA ............................... NOT EXECUTED
+RULECHECK 4.31A.20KA .............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.31B.a.20KA ............................ TOTAL Result Count = 0  (0)
+RULECHECK 4.31B.b.20KA ............................ TOTAL Result Count = 0  (0)
+RULECHECK 4.31C.20KA .............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.31D.20KA .............................. TOTAL Result Count = 0  (0)
+RULECHECK 4.31A.12KA .............................. NOT EXECUTED
+RULECHECK 4.31B.a.12KA ............................ NOT EXECUTED
+RULECHECK 4.31B.b.12KA ............................ NOT EXECUTED
+RULECHECK 4.31C.12KA .............................. NOT EXECUTED
+RULECHECK 4.31D.12KA .............................. NOT EXECUTED
+RULECHECK 4.31H ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.33A ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.33B ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.01Z.NO_IND_OD ......................... TOTAL Result Count = 0  (0)
+RULECHECK 4.14Z.NO_IND_PO1 ........................ TOTAL Result Count = 1  (1)
+RULECHECK 4.20F.NO_IND_M1 ......................... TOTAL Result Count = 1  (1)
+RULECHECK 4.20G ................................... TOTAL Result Count = 1  (1)
+RULECHECK 4.22F.NO_IND_M2 ......................... TOTAL Result Count = 1  (1)
+RULECHECK 4.22G ................................... TOTAL Result Count = 1  (1)
+RULECHECK 4.24F.NO_IND_M3 ......................... TOTAL Result Count = 1  (1)
+RULECHECK 4.24G ................................... TOTAL Result Count = 1  (1)
+RULECHECK 4.26F.NO_IND_M4 ......................... TOTAL Result Count = 0  (0)
+RULECHECK 4.26G ................................... TOTAL Result Count = 1  (1)
+RULECHECK 4.28F.NO_IND_M5 ......................... TOTAL Result Count = 0  (0)
+RULECHECK 4.28G ................................... TOTAL Result Count = 1  (1)
+RULECHECK 4.31E.NO_IND_M6 ......................... TOTAL Result Count = 0  (0)
+RULECHECK 4.31F ................................... TOTAL Result Count = 1  (1)
+RULECHECK 4.20C ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.22C ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.24C ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.26C ................................... TOTAL Result Count = 0  (0)
+RULECHECK 4.28C ................................... TOTAL Result Count = 0  (0)
+RULECHECK 6Aa.ME1 ................................. NOT EXECUTED
+RULECHECK 6Ab.ME1 ................................. NOT EXECUTED
+RULECHECK 6Ba.ME1 ................................. NOT EXECUTED
+RULECHECK 6Bb.ME1 ................................. NOT EXECUTED
+RULECHECK 6Aa.ME2 ................................. NOT EXECUTED
+RULECHECK 6Ab.ME2 ................................. NOT EXECUTED
+RULECHECK 6Ba.ME2 ................................. NOT EXECUTED
+RULECHECK 6Bb.ME2 ................................. NOT EXECUTED
+RULECHECK 6Aa.ME3 ................................. NOT EXECUTED
+RULECHECK 6Ab.ME3 ................................. NOT EXECUTED
+RULECHECK 6Ba.ME3 ................................. NOT EXECUTED
+RULECHECK 6Bb.ME3 ................................. NOT EXECUTED
+RULECHECK 6Aa.ME4 ................................. NOT EXECUTED
+RULECHECK 6Ab.ME4 ................................. NOT EXECUTED
+RULECHECK 6Ba.ME4 ................................. NOT EXECUTED
+RULECHECK 6Bb.ME4 ................................. NOT EXECUTED
+RULECHECK 6Aa.ME5 ................................. NOT EXECUTED
+RULECHECK 6Ab.ME5 ................................. NOT EXECUTED
+RULECHECK 6Ba.ME5 ................................. NOT EXECUTED
+RULECHECK 6Bb.ME5 ................................. NOT EXECUTED
+RULECHECK 6Aa.ME6 ................................. NOT EXECUTED
+RULECHECK 6Ab.ME6 ................................. NOT EXECUTED
+RULECHECK 6Ba.ME6 ................................. NOT EXECUTED
+RULECHECK 6Bb.ME6 ................................. NOT EXECUTED
+RULECHECK RECOMMEND_DUMMY_DIFF .................... TOTAL Result Count = 0  (0)
+RULECHECK RECOMMEND_DUMMY1 ........................ TOTAL Result Count = 0  (0)
+RULECHECK RECOMMEND_DUMMY2 ........................ TOTAL Result Count = 0  (0)
+RULECHECK RECOMMEND_DUMMY3 ........................ TOTAL Result Count = 0  (0)
+RULECHECK RECOMMEND_DUMMY4 ........................ TOTAL Result Count = 0  (0)
+RULECHECK RECOMMEND_DUMMY5 ........................ TOTAL Result Count = 0  (0)
+RULECHECK RECOMMEND_DUMMY6 ........................ TOTAL Result Count = 0  (0)
+RULECHECK 5.1B .................................... NOT EXECUTED
+RULECHECK 5.1C .................................... NOT EXECUTED
+RULECHECK 5.1D .................................... NOT EXECUTED
+RULECHECK 5.1E .................................... NOT EXECUTED
+RULECHECK 5.1F .................................... NOT EXECUTED
+RULECHECK 5.1G .................................... NOT EXECUTED
+RULECHECK 5.1H .................................... NOT EXECUTED
+RULECHECK 5.1I .................................... NOT EXECUTED
+RULECHECK 5.1J .................................... NOT EXECUTED
+RULECHECK 5.1L .................................... NOT EXECUTED
+RULECHECK 5.1M .................................... NOT EXECUTED
+RULECHECK 5.1N .................................... NOT EXECUTED
+RULECHECK 5.1O .................................... NOT EXECUTED
+RULECHECK 5.1P .................................... NOT EXECUTED
+RULECHECK 5.1R .................................... NOT EXECUTED
+RULECHECK 5.1Q .................................... NOT EXECUTED
+RULECHECK 5.1S .................................... NOT EXECUTED
+RULECHECK 5.1T .................................... NOT EXECUTED
+RULECHECK 5.1U .................................... NOT EXECUTED
+RULECHECK 5.1V .................................... NOT EXECUTED
+RULECHECK 5.1W .................................... NOT EXECUTED
+RULECHECK 5.RECOMMEND ............................. NOT EXECUTED
+RULECHECK 5.NOTICE1 ............................... NOT EXECUTED
+RULECHECK 5.NOTICE2 ............................... NOT EXECUTED
+RULECHECK LOGO_5.1A_LOGO_5.1C_suggested ........... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.1B ............................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.2A_LOGO_5.2C_suggested ........... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.2B ............................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.3A_LOGO_5.3C_suggested ........... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.3B ............................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.4A_LOGO_5.4C_suggested ........... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.4B ............................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.5A_LOGO_5.5C_suggested ........... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.5B ............................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.6A_LOGO_5.6C_suggested ........... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.6B ............................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.7A_LOGO_5.7C_suggested ........... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.7B ............................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.8A_LOGO_5.8C_suggested ........... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.8B ............................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.8Da .............................. TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.8Db .............................. TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.9A_LOGO_5.9C_suggested ........... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.9B ............................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.9D ............................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10A_V1_LOGO_5.10C_V1_suggested ... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10B_V1 ........................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10Da_V1 .......................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10Db_V1 .......................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10A_V2_LOGO_5.10C_V2_suggested ... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10B_V2 ........................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10Da_V2 .......................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10Db_V2 .......................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10A_V3_LOGO_5.10C_V3_suggested ... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10B_V3 ........................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10Da_V3 .......................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10Db_V3 .......................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10A_V4_LOGO_5.10C_V4_suggested ... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10B_V4 ........................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10Da_V4 .......................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10Db_V4 .......................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10A_V5_LOGO_5.10C_V5_suggested ... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10B_V5 ........................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10Da_V5 .......................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.10Db_V5 .......................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.11A_M2_LOGO_5.11C_M2_suggested ... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.11B_M2 ........................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.11A_M3_LOGO_5.11C_M3_suggested ... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.11B_M3 ........................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.11A_M4_LOGO_5.11C_M4_suggested ... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.11B_M4 ........................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.11A_M5_LOGO_5.11C_M5_suggested ... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.11B_M5 ........................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.12A_M6_LOGO_5.11C_M6_suggested ... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.12B_M6 ........................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.13A_LOGO_5.13C_suggested ......... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.13B .............................. TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.15C_suggested .................... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.18A_LOGO_5.18C_suggested ......... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.18B .............................. TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.19A_LOGO_5.19C_suggested ......... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.19B .............................. TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.20A_LOGO_5.20C_suggested ......... TOTAL Result Count = 0  (0)
+RULECHECK LOGO_5.20B .............................. TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.1AB ............................... TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.1C.1 .............................. TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.1C.2 .............................. TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.1D.a .............................. TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.1G.a .............................. TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.8AaBaC ............................ TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.8D.b1 ............................. TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.8D.c1.1 ........................... TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.8D.c1.2 ........................... TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.8D.c2.1 ........................... TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.8E ................................ TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.8F ................................ TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.8G ................................ TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.8H ................................ TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.8J ................................ TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.8N ................................ TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.10D.b ............................. TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.12C.a ............................. TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.12D ............................... TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.12FG .............................. TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.13B.a ............................. TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.13D.bc ............................ TOTAL Result Count = 0  (0)
+RULECHECK BDSP4.14C.cd ............................ TOTAL Result Count = 0  (0)
+RULECHECK BDSP.OPC.DIFF ........................... TOTAL Result Count = 0  (0)
+RULECHECK BDSP.OPC.POLY ........................... TOTAL Result Count = 0  (0)
+RULECHECK BDSP.OPC.M1 ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.1AB ............................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.1C.1 .............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.1C.2 .............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.1D.a .............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.1E ................................ TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.1G.a .............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.8AaBaC ............................ TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.8D.a1 ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.8D.a2 ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.8D.b1 ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.8D.b2 ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.8D.c1.1 ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.8D.c1.2 ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.8D.c2.1a .......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.8D.c2.1b .......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.8E ................................ TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.8G ................................ TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.8H ................................ TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.8N ................................ TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.9C.a .............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.10D.a ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.10D.b ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.12A ............................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.12B.1 ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.12B.2 ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.12E ............................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.13A ............................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP4.13B.a ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP.OPC.DIFF ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP.OPC.POLY ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP.OPC.M1 ............................. TOTAL Result Count = 0  (0)
+RULECHECK DP4.1D.a ................................ TOTAL Result Count = 0  (0)
+RULECHECK DP4.1G.a ................................ TOTAL Result Count = 0  (0)
+RULECHECK DP4.8F .................................. TOTAL Result Count = 0  (0)
+RULECHECK DP4.8G .................................. TOTAL Result Count = 0  (0)
+RULECHECK DP4.9C.a ................................ TOTAL Result Count = 0  (0)
+RULECHECK DP4.9C.b ................................ TOTAL Result Count = 0  (0)
+RULECHECK DP4.9D.b ................................ TOTAL Result Count = 0  (0)
+RULECHECK DP4.10C.b ............................... TOTAL Result Count = 0  (0)
+RULECHECK DP4.10D.a ............................... TOTAL Result Count = 0  (0)
+RULECHECK DP4.10D.b ............................... TOTAL Result Count = 0  (0)
+RULECHECK DP4.12E ................................. TOTAL Result Count = 0  (0)
+RULECHECK DP4.12FG ................................ TOTAL Result Count = 0  (0)
+RULECHECK DP4.13A ................................. TOTAL Result Count = 0  (0)
+RULECHECK DP4.13B.a.1 ............................. TOTAL Result Count = 0  (0)
+RULECHECK DP4.13B.a.2 ............................. TOTAL Result Count = 0  (0)
+RULECHECK DP4.13D.bc .............................. TOTAL Result Count = 0  (0)
+RULECHECK DP.OPC.M1 ............................... TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.1AB ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.1C .............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.1D.a ............................ TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.1G.a ............................ TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.8AaBaC .......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.8D.a1 ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.8D.a2 ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.8D.b1 ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.8D.c1 ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.8D.c2.1 ......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.8E .............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.8F .............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.8G .............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.8H .............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.8N .............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.9A .............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.9B .............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.9C.a ............................ TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.10B ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.12B ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.12C.a ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.12D ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.12E ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.13A ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.13B.a ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP4.14C.cd .......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP.OPC.DIFF ......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP.OPC.POLY ......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSPLP.OPC.M1 ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.1AB ............................ TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.1C.1 ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.1C.2 ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.1D.a ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.1E ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.1G.a ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.8AaBaC ......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.8D.a1 .......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.8D.a2 .......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.8D.b1 .......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.8D.b2 .......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.8D.c1.1 ........................ TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.8D.c1.2 ........................ TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.8D.c2.1a ....................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.8D.c2.1b ....................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.8E ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.8G ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.8H ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.8N ............................. TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.9C.a ........................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.10D.a .......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.10D.b .......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.12A ............................ TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.12B.1 .......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.12B.2 .......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.12E ............................ TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.13A ............................ TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A4.13B.a .......................... TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A.OPC.DIFF ........................ TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A.OPC.POLY ........................ TOTAL Result Count = 0  (0)
+RULECHECK BLSP_1A.OPC.M1 .......................... TOTAL Result Count = 0  (0)
+RULECHECK OPC_BLOCK.DIFF .......................... TOTAL Result Count = 0  (0)
+RULECHECK OPC_BLOCK.POLY .......................... TOTAL Result Count = 0  (0)
+RULECHECK OPC_BLOCK.M1 ............................ TOTAL Result Count = 0  (0)
+RULECHECK 6.1A.M1 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1B.M1 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1C.M1 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1D.a.M1 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1D.b.M1 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1E.a.M1 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1A.M2 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1B.M2 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1C.M2 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1D.a.M2 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1D.b.M2 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1E.a.M2 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1A.M3 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1B.M3 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1C.M3 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1D.a.M3 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1D.b.M3 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1E.a.M3 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1A.M4 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1B.M4 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1C.M4 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1D.a.M4 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1D.b.M4 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1E.a.M4 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1A.M5 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1B.M5 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1C.M5 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1D.a.M5 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1D.b.M5 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1E.a.M5 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1A.M6 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1B.M6 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1C.M6 ................................. TOTAL Result Count = 0  (0)
+RULECHECK 6.1D.a.M6 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1D.b.M6 ............................... TOTAL Result Count = 0  (0)
+RULECHECK 6.1E.a.M6 ............................... TOTAL Result Count = 0  (0)
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  13
+TOTAL REAL Time:                 7
+TOTAL Original Layer Geometries: 22607 (10820485)
+TOTAL DRC RuleChecks Executed:   520
+TOTAL DRC Results Generated:     25 (245)
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Sun Oct 24 21:02:01 2021
+Calibre Version:           v2020.3_38.22    Tue Sep 1 16:54:05 PDT 2020
+Rule File Pathname:        calibre_drc_rule
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            ../m_LBP_CHIP.gds
+Layout Primary Cell:       LBP_CHIP
+Current Directory:         /DRC/home/autodrc/Working/queue210009_27873/calibre_drc1
+User Name:                 autodrc
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   4096
+DRC Results Database:      DRC_RES.db (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       drc.sum (REPLACE)
+Geometry Flagging:         ACUTE = YES  SKEW = YES  ANGLED = NO  OFFGRID = YES
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         NO
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+Path of zero width at location (0.31,0) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell AJCEPFCMMNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell AKCEPFNCNKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.89,0) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell BDCEPFOIFCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.89,0) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (6.51,0) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.13,0) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.75,0) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.37,0) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell BECEPFBHOEL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.13,0) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (6.51,0) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.89,0) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell BECEPFPDHEE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.75,0) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.13,0) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (6.51,0) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.89,0) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell BGCEPFHIEAK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell BHCEPFENMEM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell BHCEPFENMEM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell BHCEPFENMEM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell BHCEPFENMEM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell BHCEPFENMEM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell BHCEPFENMEM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell BHCEPFENMEM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell BHCEPFENMEM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell BHCEPFENMEM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell BHCEPFENMEM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell BHCEPFENMEM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell BHCEPFENMEM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell BJCEPFDNFID$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell BJCEPFDNFID$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell BJCEPFDNFID$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell BJCEPFDNFID$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell BJCEPFDNFID$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell BJCEPFDNFID$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell BJCEPFDNFID$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell BJCEPFDNFID$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell BJCEPFDNFID$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell BJCEPFDNFID$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell BJCEPFDNFID$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell BJCEPFDNFID$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell BJCEPFDNFID$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell BJCEPFKKIN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell BJCEPFKKIN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell BJCEPFKKIN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell BJCEPFKKIN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell BJCEPFKKIN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell BJCEPFKKIN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell BJCEPFKKIN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell BJCEPFKKIN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell BJCEPFKKIN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell BJCEPFKKIN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell BJCEPFKKIN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell BJCEPFKKIN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell BJCEPFKKIN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell BJCEPFKKIN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell BJCEPFKKIN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell CCCEPFHHJDD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell CCCEPFHHJDD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell CCCEPFHHJDD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell CCCEPFHHJDD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell CCCEPFHHJDD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell CCCEPFHHJDD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell CCCEPFHHJDD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell CCCEPFHHJDD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell CCCEPFHHJDD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell CCCEPFHHJDD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell CCCEPFHHJDD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell CCCEPFHHJDD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell CCCEPFHHJDD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell CHCEPFDKAKC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell CHCEPFDKAKC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell CHCEPFDKAKC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell CHCEPFDKAKC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell CHCEPFDKAKC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell CHCEPFDKAKC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell CHCEPFDKAKC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell CHCEPFDKAKC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell CHCEPFDKAKC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell CHCEPFDKAKC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell CHCEPFDKAKC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell CHCEPFDKAKC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell CHCEPFDKAKC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell DICEPFCNMFB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell DICEPFCNMFB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell DICEPFCNMFB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell DICEPFCNMFB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell DICEPFCNMFB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell DICEPFCNMFB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell DICEPFCNMFB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell DICEPFCNMFB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell DICEPFCNMFB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.86,0) in cell DICEPFCNMFB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell DICEPFCNMFB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell DICEPFCNMFB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell DICEPFCNMFB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell DICEPFDPCCH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell DICEPFDPCCH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell DICEPFDPCCH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell DICEPFDPCCH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell DICEPFDPCCH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell DICEPFDPCCH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell DICEPFDPCCH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell DICEPFDPCCH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell DICEPFDPCCH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell DICEPFDPCCH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell DICEPFDPCCH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell DICEPFDPCCH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell DICEPFDPCCH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell DICEPFDPCCH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell DICEPFDPCCH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell DJCEPFNHJMK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell DJCEPFNHJMK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell DJCEPFNHJMK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell DJCEPFNHJMK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell DJCEPFNHJMK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell DJCEPFNHJMK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell DJCEPFNHJMK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell DJCEPFNHJMK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell DJCEPFNHJMK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell DJCEPFNHJMK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell DJCEPFNHJMK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell DJCEPFNHJMK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell DJCEPFNHJMK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell DJCEPFNHJMK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell DJCEPFNHJMK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell DKCEPFEIINM$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell EICEPFCKHG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell EICEPFCKHG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell EICEPFCKHG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell EICEPFCKHG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell EICEPFCKHG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell EICEPFCKHG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell EICEPFCKHG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell EICEPFCKHG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell EICEPFCKHG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell EICEPFCKHG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell EICEPFCKHG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell EICEPFCKHG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell EICEPFCKHG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.89,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (6.51,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.13,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.75,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.37,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.99,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (9.61,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (10.23,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (10.85,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell EKCEPFPIHAE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell FICEPFBDLGI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell FICEPFBDLGI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell FICEPFBDLGI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell FICEPFBDLGI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell FICEPFBDLGI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell FICEPFBDLGI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell FICEPFBDLGI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell FICEPFBDLGI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell FICEPFBDLGI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell FICEPFBDLGI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell FICEPFBDLGI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell FICEPFBDLGI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell FICEPFCLEMN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell FICEPFCLEMN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell FICEPFCLEMN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell FICEPFCLEMN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell FICEPFCLEMN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell FICEPFCLEMN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell FICEPFCLEMN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell FICEPFCLEMN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell FICEPFCLEMN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell FICEPFCLEMN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell FICEPFCLEMN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell FICEPFCLEMN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell FICEPFCLEMN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell FICEPFCLEMN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell FICEPFCLEMN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell FJCEPFKGOKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell FJCEPFKGOKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell FJCEPFKGOKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell FJCEPFKGOKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell FJCEPFKGOKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell FJCEPFKGOKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell FJCEPFKGOKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell FJCEPFKGOKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell FJCEPFKGOKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell FJCEPFKGOKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell FJCEPFKGOKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell FJCEPFKGOKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell FJCEPFKGOKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell FJCEPFKGOKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell FJCEPFKGOKI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell GCCEPFIDCEC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell GCCEPFIDCEC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell GCCEPFIDCEC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell GCCEPFIDCEC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell GCCEPFIDCEC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell GCCEPFIDCEC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell GCCEPFIDCEC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell GCCEPFIDCEC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell GCCEPFIDCEC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell GCCEPFIDCEC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell GCCEPFIDCEC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell GCCEPFIDCEC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell GCCEPFIDCEC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell GCCEPFIDCEC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell GCCEPFIDCEC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell GDCEPFBGFKN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell GICEPFHMJBK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell GICEPFLGPJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell GICEPFLGPJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell GICEPFLGPJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell GICEPFLGPJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell GICEPFLGPJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell GICEPFLGPJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell GICEPFLGPJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell GICEPFLGPJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell GICEPFLGPJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell GICEPFLGPJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell GICEPFLGPJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell GICEPFLGPJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell GICEPFLGPJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell GICEPFLGPJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (11.47,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (10.85,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (10.23,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (9.61,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.99,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.37,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.75,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.13,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (6.51,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.89,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell HJCEPFBLMCL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.37,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.99,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (9.61,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (10.23,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.75,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.13,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (6.51,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.89,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell HJCEPFGADJD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell ICCEPFABHHI$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell IDCEPFGJHNE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell IDCEPFGJHNE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell IDCEPFGJHNE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell IDCEPFGJHNE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell IDCEPFGJHNE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell IDCEPFGJHNE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell IDCEPFGJHNE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell IDCEPFGJHNE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell IDCEPFGJHNE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell IDCEPFGJHNE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell IDCEPFGJHNE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell IDCEPFGJHNE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell IDCEPFGJHNE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell IDCEPFGJHNE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell IDCEPFGJHNE$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell IICEPFLEDIC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.89,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (6.51,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.13,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.75,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.37,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.99,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (9.61,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (10.23,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (10.85,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (11.47,0) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell JFCEPFKINNK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell JHCEPFIHHCD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell JICEPFDMJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell JICEPFDMJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell JICEPFDMJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell JICEPFDMJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell JICEPFDMJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell JICEPFDMJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell JICEPFDMJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell JICEPFDMJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell JICEPFDMJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell JICEPFDMJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell JICEPFDMJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell JICEPFDMJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell JICEPFDMJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell JICEPFDMJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell JICEPFDMJG$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell KHCEPFJGFAD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell KHCEPFJGFAD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell KHCEPFJGFAD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell KHCEPFJGFAD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell KHCEPFJGFAD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell KHCEPFJGFAD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell KHCEPFJGFAD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell KHCEPFJGFAD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell KHCEPFJGFAD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell KHCEPFJGFAD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell KHCEPFJGFAD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell KHCEPFJGFAD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell KHCEPFJGFAD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell KHCEPFJGFAD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell KHCEPFJGFAD$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell KICEPFKFCAF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell KICEPFOEMEO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell LHCEPFJMNBL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell MDCEPFNCNCF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell MDCEPFNCNCF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell MDCEPFNCNCF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell MDCEPFNCNCF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell MDCEPFNCNCF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell MDCEPFNCNCF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell MDCEPFNCNCF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell MDCEPFNCNCF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell MDCEPFNCNCF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell MDCEPFNCNCF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell MDCEPFNCNCF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell MDCEPFNCNCF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell MDCEPFNCNCF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell MDCEPFNCNCF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell MDCEPFNCNCF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell MICEPFDMOCP$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell NFCEPFGFGPH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell NFCEPFGFGPH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell NFCEPFGFGPH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell NFCEPFGFGPH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell NFCEPFGFGPH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell NFCEPFGFGPH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell NFCEPFGFGPH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell NFCEPFGFGPH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell NFCEPFGFGPH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell NFCEPFGFGPH$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell NFCEPFIBMDN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell NFCEPFIBMDN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell NFCEPFIBMDN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell NFCEPFIBMDN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell NFCEPFIBMDN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell NFCEPFIBMDN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell NFCEPFIBMDN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell NFCEPFIBMDN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell NFCEPFIBMDN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell NFCEPFIBMDN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell NFCEPFIBMDN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.89,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (6.51,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.13,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.75,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.37,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.99,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (9.61,0) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell NFCEPFLOMHK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell NICEPFCENIL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell NICEPFCENIL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell NICEPFCENIL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell NICEPFCENIL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell NICEPFCENIL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell NICEPFCENIL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell NICEPFCENIL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell NICEPFCENIL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell NICEPFCENIL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell NICEPFCENIL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell NICEPFCENIL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell NICEPFCENIL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell NICEPFCENIL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell NICEPFCENIL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell NICEPFCENIL$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell OCCEPFMMGGC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell OCCEPFMMGGC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell OCCEPFMMGGC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell OCCEPFMMGGC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell OCCEPFMMGGC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell OCCEPFMMGGC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell OCCEPFMMGGC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell OCCEPFMMGGC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell OCCEPFMMGGC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell OCCEPFMMGGC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell OCCEPFMMGGC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell OCCEPFMMGGC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell OCCEPFMMGGC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell OCCEPFMMGGC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell OCCEPFMMGGC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell OFCEPFEOOEF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell OFCEPFEOOEF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell OFCEPFEOOEF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell OFCEPFEOOEF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell OFCEPFEOOEF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell OFCEPFEOOEF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell OFCEPFEOOEF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell OFCEPFEOOEF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell OFCEPFEOOEF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell OFCEPFEOOEF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell OFCEPFEOOEF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell OFCEPFEOOEF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell OFCEPFEOOEF$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.89,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (6.51,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.13,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.75,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.37,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.99,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (9.61,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (10.23,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (10.85,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (11.47,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (12.09,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (12.71,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (13.33,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (13.95,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (14.57,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (15.19,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (15.81,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (16.43,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (17.05,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (17.67,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (18.29,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (18.91,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (19.53,0) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell OFCEPFOJHNC$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.89,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (6.51,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.13,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.75,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.37,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.99,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (9.61,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (10.23,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (10.85,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (11.47,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (12.09,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (12.71,0) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell PECEPFOJPJB$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell PFCEPFCCPNN$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.17,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (2.79,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (3.41,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.03,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (4.65,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.27,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (5.89,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (6.51,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.13,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (7.75,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.37,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (8.99,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (9.61,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (10.23,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (10.85,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (11.47,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (12.09,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (12.71,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (13.33,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (13.95,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (14.57,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (15.19,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (15.81,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (16.43,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (17.05,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (17.67,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (18.29,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (18.91,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (19.53,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (20.15,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (20.77,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (21.39,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (22.01,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (22.63,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (23.25,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (23.87,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (24.49,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (25.11,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (25.73,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (26.35,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (26.97,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (27.59,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (28.21,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (28.83,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (29.45,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (30.07,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (30.69,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (31.31,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (31.93,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (32.55,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (33.17,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (33.79,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (34.41,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (35.03,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (35.65,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (36.27,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (36.89,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (37.51,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (38.13,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (38.75,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (39.37,0) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell PFCEPFLDPKK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell PGCEPFPCAOK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell PGCEPFPCAOK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell PGCEPFPCAOK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell PGCEPFPCAOK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell PGCEPFPCAOK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell PGCEPFPCAOK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell PGCEPFPCAOK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell PGCEPFPCAOK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell PGCEPFPCAOK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell PGCEPFPCAOK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell PGCEPFPCAOK$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.76) in cell PJCEPFDPBCO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,4.2) in cell PJCEPFDPBCO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.64) in cell PJCEPFDPBCO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,3.08) in cell PJCEPFDPBCO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,2.52) in cell PJCEPFDPBCO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.96) in cell PJCEPFDPBCO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,1.4) in cell PJCEPFDPBCO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.84) in cell PJCEPFDPBCO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0,0.28) in cell PJCEPFDPBCO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (1.55,0) in cell PJCEPFDPBCO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.93,0) in cell PJCEPFDPBCO$$40nW04f00 on layer 145 datatype 0 dropped.
+Path of zero width at location (0.31,0) in cell PJCEPFDPBCO$$40nW04f00 on layer 145 datatype 0 dropped.
+MAXIMUM RDB limit 1000 reached for layer f_VI4 in cell LBP_CHIP on net 142.
+Maximum result count of 1000 exceeded in DRC RuleCheck ANT.3.1.2.Note2.VI4.
+MAXIMUM RDB limit 1000 reached for layer f_VI5 in cell LBP_CHIP on net 142.
+Maximum result count of 1000 exceeded in DRC RuleCheck ANT.3.1.2.Note2.VI5.
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER NWEL .... TOTAL Original Geometry Count = 87   (5656)
+LAYER MMCTP ... TOTAL Original Geometry Count = 0    (0)
+LAYER DIFF .... TOTAL Original Geometry Count = 690  (26142)
+LAYER PO1 ..... TOTAL Original Geometry Count = 571  (15718)
+LAYER NPLUS ... TOTAL Original Geometry Count = 165  (14464)
+LAYER PPLUS ... TOTAL Original Geometry Count = 263  (17178)
+LAYER CONT .... TOTAL Original Geometry Count = 4    (977154)
+LAYER ME1 ..... TOTAL Original Geometry Count = 3769 (1703888)
+LAYER VI1 ..... TOTAL Original Geometry Count = 28   (713483)
+LAYER ME2 ..... TOTAL Original Geometry Count = 5561 (998802)
+LAYER VI2 ..... TOTAL Original Geometry Count = 30   (319021)
+LAYER ME3 ..... TOTAL Original Geometry Count = 2560 (796571)
+LAYER VI3 ..... TOTAL Original Geometry Count = 2216 (539427)
+LAYER ME4 ..... TOTAL Original Geometry Count = 879  (1157874)
+LAYER VI4 ..... TOTAL Original Geometry Count = 3507 (826434)
+LAYER ME5 ..... TOTAL Original Geometry Count = 245  (1320054)
+LAYER VI5 ..... TOTAL Original Geometry Count = 1845 (726454)
+LAYER ME6 ..... TOTAL Original Geometry Count = 85   (660897)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK ANT.3.1.1A ................... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.1B ................... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.1D.ME1 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2B.ME1 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.1C.VI1 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.1E.VI1 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2A.VI1 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2.Note2.VI1 .......... TOTAL Result Count = 0    (0)
+RULECHECK M12_MMC_ANT.3.2.1D_CBM_VI1 ... NOT EXECUTED
+RULECHECK ANT.3.1.1D.ME2 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2B.ME2 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.1C.VI2 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.1E.VI2 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2A.VI2 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2.Note2.VI2 .......... TOTAL Result Count = 0    (0)
+RULECHECK M23_MMC_ANT.3.2.1D_CBM_VI2 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1A_CTM_ME2 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1C_CTM_ME2 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1D_CTM_VI2 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1F_CTM_VI2 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1A_CBM_ME2 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1B_CBM_ME2 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1D_CBM_VI2 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1E_CBM_VI2 ... NOT EXECUTED
+RULECHECK ANT.3.1.1D.ME3 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2B.ME3 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.1C.VI3 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.1E.VI3 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2A.VI3 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2.Note2.VI3 .......... TOTAL Result Count = 0    (0)
+RULECHECK M34_MMC_ANT.3.2.1D_CBM_VI3 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1A_CTM_ME3 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1C_CTM_ME3 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1D_CTM_VI3 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1F_CTM_VI3 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1A_CBM_ME3 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1B_CBM_ME3 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1D_CBM_VI3 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1E_CBM_VI3 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1A_CTM_ME3 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1C_CTM_ME3 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1D_CTM_VI3 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1F_CTM_VI3 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1A_CBM_ME3 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1B_CBM_ME3 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1D_CBM_VI3 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1E_CBM_VI3 ... NOT EXECUTED
+RULECHECK ANT.3.1.1D.ME4 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2B.ME4 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.1C.VI4 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.1E.VI4 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2A.VI4 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2.Note2.VI4 .......... TOTAL Result Count = 1000 (5969)
+RULECHECK M45_MMC_ANT.3.2.1D_CBM_VI4 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1A_CTM_ME4 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1C_CTM_ME4 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1D_CTM_VI4 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1F_CTM_VI4 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1A_CBM_ME4 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1B_CBM_ME4 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1D_CBM_VI4 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1E_CBM_VI4 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1A_CTM_ME4 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1C_CTM_ME4 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1D_CTM_VI4 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1F_CTM_VI4 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1A_CBM_ME4 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1B_CBM_ME4 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1D_CBM_VI4 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1E_CBM_VI4 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1A_CTM_ME4 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1C_CTM_ME4 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1D_CTM_VI4 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1F_CTM_VI4 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1A_CBM_ME4 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1B_CBM_ME4 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1D_CBM_VI4 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1E_CBM_VI4 ... NOT EXECUTED
+RULECHECK ANT.3.1.1D.ME5 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2B.ME5 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.1C.VI5 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.1E.VI5 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2A.VI5 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2.Note2.VI5 .......... TOTAL Result Count = 1000 (5969)
+RULECHECK M56_MMC_ANT.3.2.1D_CBM_VI5 ... TOTAL Result Count = 0    (0)
+TOTAL DFM RDB Result Count = 0 (0)
+RULECHECK M45_MMC_ANT.3.2.1A_CTM_ME5 ... NOT EXECUTED
+RULECHECK M45_MMC_ANT.3.2.1C_CTM_ME5 ... NOT EXECUTED
+RULECHECK M45_MMC_ANT.3.2.1D_CTM_VI5 ... NOT EXECUTED
+RULECHECK M45_MMC_ANT.3.2.1F_CTM_VI5 ... NOT EXECUTED
+RULECHECK M45_MMC_ANT.3.2.1A_CBM_ME5 ... NOT EXECUTED
+RULECHECK M45_MMC_ANT.3.2.1B_CBM_ME5 ... NOT EXECUTED
+RULECHECK M45_MMC_ANT.3.2.1D_CBM_VI5 ... NOT EXECUTED
+RULECHECK M45_MMC_ANT.3.2.1E_CBM_VI5 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1A_CTM_ME5 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1C_CTM_ME5 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1D_CTM_VI5 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1F_CTM_VI5 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1A_CBM_ME5 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1B_CBM_ME5 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1D_CBM_VI5 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1E_CBM_VI5 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1A_CTM_ME5 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1C_CTM_ME5 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1D_CTM_VI5 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1F_CTM_VI5 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1A_CBM_ME5 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1B_CBM_ME5 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1D_CBM_VI5 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1E_CBM_VI5 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1A_CTM_ME5 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1C_CTM_ME5 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1D_CTM_VI5 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1F_CTM_VI5 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1A_CBM_ME5 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1B_CBM_ME5 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1D_CBM_VI5 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1E_CBM_VI5 ... NOT EXECUTED
+RULECHECK ANT.3.1.1D.ME6 ............... TOTAL Result Count = 0    (0)
+RULECHECK ANT.3.1.2B.ME6 ............... TOTAL Result Count = 0    (0)
+RULECHECK M56_MMC_ANT.3.2.1A_CTM_ME6 ... TOTAL Result Count = 0    (0)
+RULECHECK M56_MMC_ANT.3.2.1C_CTM_ME6 ... TOTAL Result Count = 0    (0)
+RULECHECK M56_MMC_ANT.3.2.1A_CBM_ME6 ... TOTAL Result Count = 0    (0)
+RULECHECK M56_MMC_ANT.3.2.1B_CBM_ME6 ... TOTAL Result Count = 0    (0)
+RULECHECK M45_MMC_ANT.3.2.1A_CTM_ME6 ... NOT EXECUTED
+RULECHECK M45_MMC_ANT.3.2.1C_CTM_ME6 ... NOT EXECUTED
+RULECHECK M45_MMC_ANT.3.2.1A_CBM_ME6 ... NOT EXECUTED
+RULECHECK M45_MMC_ANT.3.2.1B_CBM_ME6 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1A_CTM_ME6 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1C_CTM_ME6 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1A_CBM_ME6 ... NOT EXECUTED
+RULECHECK M34_MMC_ANT.3.2.1B_CBM_ME6 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1A_CTM_ME6 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1C_CTM_ME6 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1A_CBM_ME6 ... NOT EXECUTED
+RULECHECK M23_MMC_ANT.3.2.1B_CBM_ME6 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1A_CTM_ME6 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1C_CTM_ME6 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1A_CBM_ME6 ... NOT EXECUTED
+RULECHECK M12_MMC_ANT.3.2.1B_CBM_ME6 ... NOT EXECUTED
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  15
+TOTAL REAL Time:                 6
+TOTAL Original Layer Geometries: 22505 (10819217)
+TOTAL DRC RuleChecks Executed:   39
+TOTAL DRC Results Generated:     2000 (11938)
+TOTAL DFM RDB Results Generated: 0 (0)
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Sun Oct 24 21:02:10 2021
+Calibre Version:           v2020.3_38.22    Tue Sep 1 16:54:05 PDT 2020
+Rule File Pathname:        calibre_drc_rule
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            ../m_LBP_CHIP.gds
+Layout Primary Cell:       LBP_CHIP
+Current Directory:         /DRC/home/autodrc/Working/queue210009_27873/calibre_drc2
+User Name:                 autodrc
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   199
+DRC Results Database:      DRC_RES.db (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       drc.sum (REPLACE)
+Geometry Flagging:         ACUTE = YES  SKEW = YES  ANGLED = NO  OFFGRID = YES
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         NO
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER DIFF ....... TOTAL Original Geometry Count = 702 (26142)
+LAYER DIFFDUMY ... TOTAL Original Geometry Count = 0   (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK 7.1A ... TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  0
+TOTAL REAL Time:                 0
+TOTAL Original Layer Geometries: 702 (26142)
+TOTAL DRC RuleChecks Executed:   1
+TOTAL DRC Results Generated:     0 (0)
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Sun Oct 24 21:02:13 2021
+Calibre Version:           v2020.3_38.22    Tue Sep 1 16:54:05 PDT 2020
+Rule File Pathname:        calibre_drc_rule
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            ../m_LBP_CHIP.gds
+Layout Primary Cell:       LBP_CHIP
+Current Directory:         /DRC/home/autodrc/Working/queue210009_27873/calibre_drc3
+User Name:                 autodrc
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   199
+DRC Results Database:      DRC_RES.db (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       drc.sum (REPLACE)
+Geometry Flagging:         ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         NO
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER TWEL ....... TOTAL Original Geometry Count = 0    (0)
+LAYER NWEL ....... TOTAL Original Geometry Count = 87   (5656)
+LAYER DIFF ....... TOTAL Original Geometry Count = 690  (26142)
+LAYER PPLUS ...... TOTAL Original Geometry Count = 263  (17178)
+LAYER PO1 ........ TOTAL Original Geometry Count = 571  (15718)
+LAYER SAB ........ TOTAL Original Geometry Count = 48   (608)
+LAYER CONT ....... TOTAL Original Geometry Count = 4    (977154)
+LAYER IOID ....... TOTAL Original Geometry Count = 2    (48)
+LAYER PAD ........ TOTAL Original Geometry Count = 1    (40)
+LAYER FUSEMARK ... TOTAL Original Geometry Count = 0    (0)
+LAYER PESD ....... TOTAL Original Geometry Count = 24   (256)
+LAYER TG ......... TOTAL Original Geometry Count = 20   (268)
+LAYER ME6 ........ TOTAL Original Geometry Count = 85   (660897)
+LAYER VI5 ........ TOTAL Original Geometry Count = 1845 (726454)
+LAYER MMC ........ TOTAL Original Geometry Count = 0    (0)
+LAYER ME5 ........ TOTAL Original Geometry Count = 245  (1320054)
+LAYER VI4 ........ TOTAL Original Geometry Count = 3507 (826434)
+LAYER ME4 ........ TOTAL Original Geometry Count = 879  (1157874)
+LAYER VI3 ........ TOTAL Original Geometry Count = 2216 (539427)
+LAYER ME3 ........ TOTAL Original Geometry Count = 2560 (796571)
+LAYER VI2 ........ TOTAL Original Geometry Count = 30   (319021)
+LAYER ME2 ........ TOTAL Original Geometry Count = 5561 (998802)
+LAYER VI1 ........ TOTAL Original Geometry Count = 28   (713483)
+LAYER ME1 ........ TOTAL Original Geometry Count = 3769 (1703888)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK sanity_1 ....... TOTAL Result Count = 16 (384)
+RULECHECK sanity_2 ....... TOTAL Result Count = 0  (0)
+RULECHECK sanity_3 ....... TOTAL Result Count = 0  (0)
+RULECHECK sanity_4 ....... TOTAL Result Count = 0  (0)
+RULECHECK IO5.1.EN1 ...... TOTAL Result Count = 0  (0)
+RULECHECK IO5.1.W1 ....... TOTAL Result Count = 0  (0)
+RULECHECK IO5.1.W2 ....... TOTAL Result Count = 2  (48)
+RULECHECK IO5.1.R1 ....... TOTAL Result Count = 32 (768)
+RULECHECK IO5.2.1.W1.a ... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.1.W1.b ... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.1.L1.a ... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.1.L1.b ... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.1.L1.c ... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.1.L1.d ... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.1.L1.e ... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.1.L1.g ... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.1.S1 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.1.S2 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.1.EN1 .... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.1.S3 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.1.S4 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.1.EN2 .... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.1.EN3 .... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.1.S5 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.2.L1.a ... TOTAL Result Count = 16 (384)
+RULECHECK IO5.2.2.L1.b ... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.2.L1.c ... TOTAL Result Count = 16 (384)
+RULECHECK IO5.2.2.L1.d ... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.2.S1 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.2.S2 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.2.EN1 .... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.2.OL1 .... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.2.S4 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.2.EN2 .... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.2.EN3 .... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.2.S5 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.2.3.L1.a ... NOT EXECUTED
+RULECHECK IO5.2.3.L1.b ... NOT EXECUTED
+RULECHECK IO5.2.3.L1.c ... NOT EXECUTED
+RULECHECK IO5.2.3.L1.d ... NOT EXECUTED
+RULECHECK IO5.2.3.S1 ..... NOT EXECUTED
+RULECHECK IO5.2.3.S2 ..... NOT EXECUTED
+RULECHECK IO5.2.3.EN1 .... NOT EXECUTED
+RULECHECK IO5.2.3.OL1 .... NOT EXECUTED
+RULECHECK IO5.2.3.S4 ..... NOT EXECUTED
+RULECHECK IO5.2.3.EN2 .... NOT EXECUTED
+RULECHECK IO5.2.3.EN3 .... NOT EXECUTED
+RULECHECK IO5.2.3.S5 ..... NOT EXECUTED
+RULECHECK IO5.3.1.W1 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.3.1.L1 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.3.1.S1 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.3.1.S2 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.3.1.EN1 .... TOTAL Result Count = 0  (0)
+RULECHECK IO5.3.1.S3 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.3.1.S4 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.3.1.OL1 .... TOTAL Result Count = 0  (0)
+RULECHECK IO5.3.1.S5 ..... TOTAL Result Count = 0  (0)
+RULECHECK IO5.3.1.EN2 .... TOTAL Result Count = 0  (0)
+RULECHECK IO5.3.1.EN3 .... TOTAL Result Count = 0  (0)
+RULECHECK IO5.5.4.Note ... TOTAL Result Count = 0  (0)
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  2
+TOTAL REAL Time:                 1
+TOTAL Original Layer Geometries: 22435 (10805973)
+TOTAL DRC RuleChecks Executed:   48
+TOTAL DRC Results Generated:     82 (1968)
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Sun Oct 24 21:02:16 2021
+Calibre Version:           v2020.3_38.22    Tue Sep 1 16:54:05 PDT 2020
+Rule File Pathname:        calibre_drc_rule
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            ../m_LBP_CHIP.gds
+Layout Primary Cell:       LBP_CHIP
+Current Directory:         /DRC/home/autodrc/Working/queue210009_27873/calibre_drc4
+User Name:                 autodrc
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   199
+DRC Results Database:      DRC_RES.db (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       drc.sum (REPLACE)
+Geometry Flagging:         ACUTE = YES  SKEW = YES  ANGLED = NO  OFFGRID = YES
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         NO
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+SCONNECT conflict. Multiple stamping occurred.
+There is no data for layout net name ?VDD?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VDD?.
+There is no data for layout net name ?VSS?.
+Maximum result count of 1000 exceeded in DRC RuleCheck Latch.4.8__Latch.4.9__Latch.5.2.
+16 polygon result(s) segmented in DRC RuleCheck Latch.4.8__Latch.4.9__Latch.5.2.
+2 polygon result(s) segmented in DRC RuleCheck Latch.4.10.
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER TWEL ........ TOTAL Original Geometry Count = 0    (0)
+LAYER NWEL ........ TOTAL Original Geometry Count = 87   (5656)
+LAYER NWR ......... TOTAL Original Geometry Count = 1    (24)
+LAYER DIFF ........ TOTAL Original Geometry Count = 690  (26142)
+LAYER PPLUS ....... TOTAL Original Geometry Count = 263  (17178)
+LAYER PO1 ......... TOTAL Original Geometry Count = 571  (15718)
+LAYER SAB ......... TOTAL Original Geometry Count = 48   (608)
+LAYER SEALRMARK ... TOTAL Original Geometry Count = 0    (0)
+LAYER PAD ......... TOTAL Original Geometry Count = 1    (40)
+LAYER ME1 ......... TOTAL Original Geometry Count = 3769 (1703888)
+LAYER ME2 ......... TOTAL Original Geometry Count = 5561 (998802)
+LAYER ME3 ......... TOTAL Original Geometry Count = 2560 (796571)
+LAYER ME4 ......... TOTAL Original Geometry Count = 879  (1157874)
+LAYER ME5 ......... TOTAL Original Geometry Count = 245  (1320054)
+LAYER ME6 ......... TOTAL Original Geometry Count = 85   (660897)
+LAYER VI5 ......... TOTAL Original Geometry Count = 1845 (726454)
+LAYER MMC ......... TOTAL Original Geometry Count = 0    (0)
+LAYER VI4 ......... TOTAL Original Geometry Count = 3507 (826434)
+LAYER VI3 ......... TOTAL Original Geometry Count = 2216 (539427)
+LAYER VI2 ......... TOTAL Original Geometry Count = 30   (319021)
+LAYER VI1 ......... TOTAL Original Geometry Count = 28   (713483)
+LAYER CONT ........ TOTAL Original Geometry Count = 4    (977154)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK Latch.4.1 ......................... TOTAL Result Count = 18   (272)
+RULECHECK Latch.4.2 ......................... TOTAL Result Count = 34   (336)
+RULECHECK Latch.4.4 ......................... TOTAL Result Count = 0    (0)
+RULECHECK Latch.4.4.pick .................... TOTAL Result Count = 5    (65)
+RULECHECK Latch.4.5 ......................... TOTAL Result Count = 0    (0)
+RULECHECK Latch.4.5.pick .................... TOTAL Result Count = 24   (533)
+RULECHECK Latch.4.6 ......................... TOTAL Result Count = 0    (0)
+RULECHECK Latch.4.6.guard ................... TOTAL Result Count = 18   (464)
+RULECHECK Latch.4.7 ......................... TOTAL Result Count = 53   (581)
+RULECHECK Latch.4.7.guard ................... TOTAL Result Count = 5    (65)
+RULECHECK Latch.4.8__Latch.4.9__Latch.5.2 ... TOTAL Result Count = 1000 (4997)
+RULECHECK Latch.4.10 ........................ TOTAL Result Count = 31   (120)
+RULECHECK Latch.5.1 ......................... TOTAL Result Count = 4    (52)
+RULECHECK Latch.5.3 ......................... TOTAL Result Count = 0    (0)
+RULECHECK Latch.5.4 ......................... TOTAL Result Count = 0    (0)
+RULECHECK Latch.5.5 ......................... TOTAL Result Count = 226  (880)
+RULECHECK Latch.5.6 ......................... TOTAL Result Count = 96   (1106)
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  4
+TOTAL REAL Time:                 2
+TOTAL Original Layer Geometries: 22390 (10805425)
+TOTAL DRC RuleChecks Executed:   17
+TOTAL DRC Results Generated:     1514 (9471)
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Sun Oct 24 21:02:21 2021
+Calibre Version:           v2020.3_38.22    Tue Sep 1 16:54:05 PDT 2020
+Rule File Pathname:        calibre_drc_rule
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            ../m_LBP_CHIP.gds
+Layout Primary Cell:       LBP_CHIP
+Current Directory:         /DRC/home/autodrc/Working/queue210009_27873/calibre_drc5
+User Name:                 autodrc
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   199
+DRC Results Database:      DRC_RES.db (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       drc.sum (REPLACE)
+Geometry Flagging:         ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         NO
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER ME1 ........ TOTAL Original Geometry Count = 42678 (1703888)
+LAYER M1DUMY ..... TOTAL Original Geometry Count = 0     (0)
+LAYER FUSEMARK ... TOTAL Original Geometry Count = 0     (0)
+LAYER ME2 ........ TOTAL Original Geometry Count = 11378 (998802)
+LAYER M2DUMY ..... TOTAL Original Geometry Count = 0     (0)
+LAYER ME3 ........ TOTAL Original Geometry Count = 8332  (796571)
+LAYER M3DUMY ..... TOTAL Original Geometry Count = 0     (0)
+LAYER ME4 ........ TOTAL Original Geometry Count = 3869  (1157874)
+LAYER M4DUMY ..... TOTAL Original Geometry Count = 0     (0)
+LAYER ME5 ........ TOTAL Original Geometry Count = 372   (1320054)
+LAYER M5DUMY ..... TOTAL Original Geometry Count = 0     (0)
+LAYER ME6 ........ TOTAL Original Geometry Count = 85    (660897)
+LAYER M6DUMY ..... TOTAL Original Geometry Count = 0     (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK 6.1Aa_ME1 ... TOTAL Result Count = 0 (0)
+RULECHECK 6.1Ab_ME1 ... TOTAL Result Count = 0 (0)
+RULECHECK 6.1Aa_ME2 ... TOTAL Result Count = 0 (0)
+RULECHECK 6.1Ab_ME2 ... TOTAL Result Count = 0 (0)
+RULECHECK 6.1Aa_ME3 ... TOTAL Result Count = 0 (0)
+RULECHECK 6.1Ab_ME3 ... TOTAL Result Count = 0 (0)
+RULECHECK 6.1Aa_ME4 ... TOTAL Result Count = 0 (0)
+RULECHECK 6.1Ab_ME4 ... TOTAL Result Count = 0 (0)
+RULECHECK 6.1Aa_ME5 ... TOTAL Result Count = 0 (0)
+RULECHECK 6.1Ab_ME5 ... TOTAL Result Count = 0 (0)
+RULECHECK 6.1Ba_ME6 ... TOTAL Result Count = 0 (0)
+RULECHECK 6.1Bb_ME6 ... TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  0
+TOTAL REAL Time:                 0
+TOTAL Original Layer Geometries: 66714 (6638086)
+TOTAL DRC RuleChecks Executed:   12
+TOTAL DRC Results Generated:     0 (0)
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Sun Oct 24 21:02:24 2021
+Calibre Version:           v2020.3_38.22    Tue Sep 1 16:54:05 PDT 2020
+Rule File Pathname:        calibre_drc_rule
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            ../m_LBP_CHIP.gds
+Layout Primary Cell:       LBP_CHIP
+Current Directory:         /DRC/home/autodrc/Working/queue210009_27873/calibre_drc6
+User Name:                 autodrc
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   199
+DRC Results Database:      DRC_RES.db (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       drc.sum (REPLACE)
+Geometry Flagging:         ACUTE = YES  SKEW = YES  ANGLED = NO  OFFGRID = YES
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         NO
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER XOPCD .... TOTAL Original Geometry Count = 0    (0)
+LAYER DIFF ..... TOTAL Original Geometry Count = 690  (26142)
+LAYER XOPCP .... TOTAL Original Geometry Count = 0    (0)
+LAYER PO1 ...... TOTAL Original Geometry Count = 571  (15718)
+LAYER XOPCM1 ... TOTAL Original Geometry Count = 0    (0)
+LAYER ME1 ...... TOTAL Original Geometry Count = 3769 (1703888)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK OPC_BOUN.4.1A ... TOTAL Result Count = 0 (0)
+RULECHECK OPC_BOUN.4.1B ... TOTAL Result Count = 0 (0)
+RULECHECK OPC_BOUN.4.1N ... TOTAL Result Count = 0 (0)
+RULECHECK OPC_BOUN.4.2A ... TOTAL Result Count = 0 (0)
+RULECHECK OPC_BOUN.4.2B ... TOTAL Result Count = 0 (0)
+RULECHECK OPC_BOUN.4.2C ... TOTAL Result Count = 0 (0)
+RULECHECK OPC_BOUN.4.2N ... TOTAL Result Count = 0 (0)
+RULECHECK OPC_BOUN.4.3A ... TOTAL Result Count = 0 (0)
+RULECHECK OPC_BOUN.4.3B ... TOTAL Result Count = 0 (0)
+RULECHECK OPC_BOUN.4.3N ... TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  0
+TOTAL REAL Time:                 0
+TOTAL Original Layer Geometries: 5030 (1745748)
+TOTAL DRC RuleChecks Executed:   10
+TOTAL DRC Results Generated:     0 (0)
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Sun Oct 24 21:02:28 2021
+Calibre Version:           v2020.3_38.22    Tue Sep 1 16:54:05 PDT 2020
+Rule File Pathname:        calibre_drc_rule
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            ../m_LBP_CHIP.gds
+Layout Primary Cell:       LBP_CHIP
+Current Directory:         /DRC/home/autodrc/Working/queue210009_27873/calibre_drc7
+User Name:                 autodrc
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   199
+DRC Results Database:      DRC_RES.db (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       drc.sum (REPLACE)
+Geometry Flagging:         ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         NO
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER ME1 .... TOTAL Original Geometry Count = 3769 (1703888)
+LAYER PAD .... TOTAL Original Geometry Count = 1    (40)
+LAYER ME2 .... TOTAL Original Geometry Count = 5561 (998802)
+LAYER ME3 .... TOTAL Original Geometry Count = 2560 (796571)
+LAYER ME4 .... TOTAL Original Geometry Count = 879  (1157874)
+LAYER ME5 .... TOTAL Original Geometry Count = 245  (1320054)
+LAYER ME6 .... TOTAL Original Geometry Count = 85   (660897)
+LAYER VI1 .... TOTAL Original Geometry Count = 28   (713483)
+LAYER VI2 .... TOTAL Original Geometry Count = 30   (319021)
+LAYER VI3 .... TOTAL Original Geometry Count = 2216 (539427)
+LAYER VI4 .... TOTAL Original Geometry Count = 3507 (826434)
+LAYER VI5 .... TOTAL Original Geometry Count = 1845 (726454)
+LAYER NWEL ... TOTAL Original Geometry Count = 87   (5656)
+LAYER DIFF ... TOTAL Original Geometry Count = 690  (26142)
+LAYER PO1 .... TOTAL Original Geometry Count = 571  (15718)
+LAYER PO0 .... TOTAL Original Geometry Count = 0    (0)
+LAYER PO2 .... TOTAL Original Geometry Count = 0    (0)
+LAYER MMC .... TOTAL Original Geometry Count = 0    (0)
+LAYER CONT ... TOTAL Original Geometry Count = 4    (977154)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK 5.1A.inline ...... TOTAL Result Count = 0 (0)
+RULECHECK 5.1A.stagger ..... NOT EXECUTED
+RULECHECK 5.1A1.inline ..... TOTAL Result Count = 0 (0)
+RULECHECK 5.1A1.stagger .... NOT EXECUTED
+RULECHECK 5.1A2.inline ..... TOTAL Result Count = 0 (0)
+RULECHECK 5.1A2.stagger .... NOT EXECUTED
+RULECHECK 5.1A3.inline ..... TOTAL Result Count = 0 (0)
+RULECHECK 5.1A3.stagger .... NOT EXECUTED
+RULECHECK 5.1B.inline ...... TOTAL Result Count = 0 (0)
+RULECHECK 5.1B.stagger ..... NOT EXECUTED
+RULECHECK 5.1C.inline ...... TOTAL Result Count = 0 (0)
+RULECHECK 5.1C.stagger ..... NOT EXECUTED
+RULECHECK 5.1D.inline ...... TOTAL Result Count = 0 (0)
+RULECHECK 5.1D_stagger ..... NOT EXECUTED
+RULECHECK 5.1E ............. TOTAL Result Count = 0 (0)
+RULECHECK 5.1F_NWEL ........ TOTAL Result Count = 0 (0)
+RULECHECK 5.1F_DIFF ........ TOTAL Result Count = 0 (0)
+RULECHECK 5.1F_POLY1 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.1F_POLY0 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.1F_POLY2 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.1F_M1 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.1F_M2 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.1F_M3 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.1F_M4 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.1F_M5 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.1F_M6 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.1.extra ........ TOTAL Result Count = 0 (0)
+RULECHECK 5.1H.a.inline .... TOTAL Result Count = 0 (0)
+RULECHECK 5.1H.a.stagger ... NOT EXECUTED
+RULECHECK 5.1H.b_inline .... TOTAL Result Count = 0 (0)
+RULECHECK 5.1H.b_stagger ... NOT EXECUTED
+RULECHECK 5.2A_M1 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2B_M1 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2C_M1 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2E_V1_M1 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2E_V1_M2 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2F_V1_M1 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2F_V1_M2 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2G_V1 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2H_V1 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2I_V1_V2 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2A_M2 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2B_M2 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2C_M2 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2E_V2_M2 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2E_V2_M3 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2F_V2_M2 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2F_V2_M3 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2G_V2 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2H_V2 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2I_V2_V3 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2A_M3 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2B_M3 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2C_M3 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2E_V3_M3 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2E_V3_M4 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2F_V3_M3 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2F_V3_M4 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2G_V3 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2H_V3 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2I_V3_V4 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2A_M4 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2B_M4 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2C_M4 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2E_V4_M4 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2E_V4_M5 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2F_V4_M4 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2F_V4_M5 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2G_V4 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2H_V4 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2I_V4_V5 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2A_M5 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2B_M5 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2C_M5 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2E_V5_M5 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2E_V5_M6 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2F_V5_M5 ....... TOTAL Result Count = 0 (0)
+RULECHECK 5.2G_V5 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2H_V5 .......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2.1 ............ TOTAL Result Count = 0 (0)
+RULECHECK 5.2.2_M1 ......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2.2_M2 ......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2.2_M3 ......... TOTAL Result Count = 0 (0)
+RULECHECK 5.2.2_LTM ........ TOTAL Result Count = 0 (0)
+RULECHECK 5.2.2_LSM ........ TOTAL Result Count = 0 (0)
+RULECHECK 5.2.3 ............ TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  3
+TOTAL REAL Time:                 2
+TOTAL Original Layer Geometries: 22078 (10787615)
+TOTAL DRC RuleChecks Executed:   77
+TOTAL DRC Results Generated:     0 (0)
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Sun Oct 24 21:02:31 2021
+Calibre Version:           v2020.3_38.22    Tue Sep 1 16:54:05 PDT 2020
+Rule File Pathname:        calibre_drc_rule
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            ../m_LBP_CHIP.gds
+Layout Primary Cell:       LBP_CHIP
+Current Directory:         /DRC/home/autodrc/Working/queue210009_27873/calibre_drc8
+User Name:                 autodrc
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   199
+DRC Results Database:      DRC_RES.db (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       drc.sum (REPLACE)
+Geometry Flagging:         ACUTE = YES  SKEW = YES  ANGLED = NO  OFFGRID = YES
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         NO
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER PO1 ....... TOTAL Original Geometry Count = 571 (15718)
+LAYER PO1DUMY ... TOTAL Original Geometry Count = 0   (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK 7.1A ... TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  0
+TOTAL REAL Time:                 0
+TOTAL Original Layer Geometries: 571 (15718)
+TOTAL DRC RuleChecks Executed:   1
+TOTAL DRC Results Generated:     0 (0)
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Sun Oct 24 21:02:34 2021
+Calibre Version:           v2020.3_38.22    Tue Sep 1 16:54:05 PDT 2020
+Rule File Pathname:        calibre_drc_rule
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            ../m_LBP_CHIP.gds
+Layout Primary Cell:       LBP_CHIP
+Current Directory:         /DRC/home/autodrc/Working/queue210009_27873/calibre_drc9
+User Name:                 autodrc
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   199
+DRC Results Database:      DRC_RES.db (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       drc.sum (REPLACE)
+Geometry Flagging:         ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         NO
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER ME1 .... TOTAL Original Geometry Count = 3769 (1703888)
+LAYER PAD .... TOTAL Original Geometry Count = 1    (40)
+LAYER ME2 .... TOTAL Original Geometry Count = 5561 (998802)
+LAYER ME3 .... TOTAL Original Geometry Count = 2560 (796571)
+LAYER ME4 .... TOTAL Original Geometry Count = 879  (1157874)
+LAYER ME5 .... TOTAL Original Geometry Count = 245  (1320054)
+LAYER ME6 .... TOTAL Original Geometry Count = 85   (660897)
+LAYER VI1 .... TOTAL Original Geometry Count = 28   (713483)
+LAYER VI2 .... TOTAL Original Geometry Count = 30   (319021)
+LAYER VI3 .... TOTAL Original Geometry Count = 2216 (539427)
+LAYER VI4 .... TOTAL Original Geometry Count = 3507 (826434)
+LAYER VI5 .... TOTAL Original Geometry Count = 1845 (726454)
+LAYER NWEL ... TOTAL Original Geometry Count = 87   (5656)
+LAYER DIFF ... TOTAL Original Geometry Count = 690  (26142)
+LAYER PO1 .... TOTAL Original Geometry Count = 571  (15718)
+LAYER PO0 .... TOTAL Original Geometry Count = 0    (0)
+LAYER PO2 .... TOTAL Original Geometry Count = 0    (0)
+LAYER MMC .... TOTAL Original Geometry Count = 0    (0)
+LAYER CONT ... TOTAL Original Geometry Count = 4    (977154)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK 5.1A.inline ...... NOT EXECUTED
+RULECHECK 5.1A.stagger ..... TOTAL Result Count = 1  (40)
+RULECHECK 5.1A1.inline ..... NOT EXECUTED
+RULECHECK 5.1A1.stagger .... TOTAL Result Count = 1  (40)
+RULECHECK 5.1A2.inline ..... NOT EXECUTED
+RULECHECK 5.1A2.stagger .... TOTAL Result Count = 0  (0)
+RULECHECK 5.1A3.inline ..... NOT EXECUTED
+RULECHECK 5.1A3.stagger .... TOTAL Result Count = 0  (0)
+RULECHECK 5.1B.inline ...... NOT EXECUTED
+RULECHECK 5.1B.stagger ..... TOTAL Result Count = 0  (0)
+RULECHECK 5.1C.inline ...... NOT EXECUTED
+RULECHECK 5.1C.stagger ..... TOTAL Result Count = 0  (0)
+RULECHECK 5.1D.inline ...... NOT EXECUTED
+RULECHECK 5.1D_stagger ..... TOTAL Result Count = 0  (0)
+RULECHECK 5.1E ............. TOTAL Result Count = 0  (0)
+RULECHECK 5.1F_NWEL ........ TOTAL Result Count = 0  (0)
+RULECHECK 5.1F_DIFF ........ TOTAL Result Count = 0  (0)
+RULECHECK 5.1F_POLY1 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.1F_POLY0 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.1F_POLY2 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.1F_M1 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.1F_M2 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.1F_M3 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.1F_M4 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.1F_M5 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.1F_M6 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.1.extra ........ TOTAL Result Count = 0  (0)
+RULECHECK 5.1H.a.inline .... NOT EXECUTED
+RULECHECK 5.1H.a.stagger ... TOTAL Result Count = 24 (24)
+RULECHECK 5.1H.b_inline .... NOT EXECUTED
+RULECHECK 5.1H.b_stagger ... TOTAL Result Count = 0  (0)
+RULECHECK 5.2A_M1 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2B_M1 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2C_M1 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2E_V1_M1 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2E_V1_M2 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2F_V1_M1 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2F_V1_M2 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2G_V1 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2H_V1 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2I_V1_V2 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2A_M2 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2B_M2 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2C_M2 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2E_V2_M2 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2E_V2_M3 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2F_V2_M2 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2F_V2_M3 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2G_V2 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2H_V2 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2I_V2_V3 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2A_M3 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2B_M3 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2C_M3 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2E_V3_M3 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2E_V3_M4 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2F_V3_M3 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2F_V3_M4 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2G_V3 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2H_V3 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2I_V3_V4 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2A_M4 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2B_M4 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2C_M4 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2E_V4_M4 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2E_V4_M5 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2F_V4_M4 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2F_V4_M5 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2G_V4 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2H_V4 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2I_V4_V5 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2A_M5 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2B_M5 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2C_M5 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2E_V5_M5 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2E_V5_M6 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2F_V5_M5 ....... TOTAL Result Count = 0  (0)
+RULECHECK 5.2G_V5 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2H_V5 .......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2.1 ............ TOTAL Result Count = 0  (0)
+RULECHECK 5.2.2_M1 ......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2.2_M2 ......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2.2_M3 ......... TOTAL Result Count = 0  (0)
+RULECHECK 5.2.2_LTM ........ TOTAL Result Count = 0  (0)
+RULECHECK 5.2.2_LSM ........ TOTAL Result Count = 0  (0)
+RULECHECK 5.2.3 ............ TOTAL Result Count = 0  (0)
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  2
+TOTAL REAL Time:                 1
+TOTAL Original Layer Geometries: 22078 (10787615)
+TOTAL DRC RuleChecks Executed:   77
+TOTAL DRC Results Generated:     26 (104)

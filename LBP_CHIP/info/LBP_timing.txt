@@ -1,0 +1,61 @@
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : LBP
+Version: P-2019.03
+Date   : Sat Oct 23 15:01:58 2021
+****************************************
+
+Operating Conditions: BCCOM   Library: fsa0m_a_generic_core_ff1p98vm40c
+Wire Load Model Mode: enclosed
+
+  Startpoint: finite_state_machine/cycle_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: gray_data_matrix/g7_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  LBP                enG5K                 fsa0m_a_generic_core_ff1p98vm40c
+  FSM                enG5K                 fsa0m_a_generic_core_ff1p98vm40c
+  GDM                enG5K                 fsa0m_a_generic_core_ff1p98vm40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   4.00       4.00
+  clock network delay (ideal)                             1.00       5.00
+  finite_state_machine/cycle_reg[0]/CK (QDFFRBN)          0.00       5.00 r
+  finite_state_machine/cycle_reg[0]/Q (QDFFRBN)           0.38       5.38 r
+  finite_state_machine/U20/O (INV1S)                      0.13       5.50 f
+  finite_state_machine/U8/O (ND3)                         0.13       5.63 r
+  finite_state_machine/U4/O (OA12T)                       0.71       6.35 r
+  finite_state_machine/gray_req (FSM)                     0.00       6.35 r
+  gray_data_matrix/gray_req (GDM)                         0.00       6.35 r
+  gray_data_matrix/U281/O (ND2)                           0.16       6.51 f
+  gray_data_matrix/U6/O (INV1S)                           0.57       7.07 r
+  gray_data_matrix/U274/O (AO12)                          0.20       7.27 r
+  gray_data_matrix/U262/O (INV1S)                         0.08       7.35 f
+  gray_data_matrix/U23/O (ND3)                            0.20       7.55 r
+  gray_data_matrix/U7/O (INV1S)                           0.28       7.83 f
+  gray_data_matrix/U50/O (NR2)                            0.45       8.28 r
+  gray_data_matrix/U40/O (OAI222S)                        0.08       8.36 f
+  gray_data_matrix/g7_reg[0]/D (QDFFRBN)                  0.00       8.36 f
+  data arrival time                                                  8.36
+
+  clock clk (rise edge)                                  12.00      12.00
+  clock network delay (ideal)                             1.00      13.00
+  gray_data_matrix/g7_reg[0]/CK (QDFFRBN)                 0.00      13.00 r
+  library setup time                                     -0.06      12.94
+  data required time                                                12.94
+  --------------------------------------------------------------------------
+  data required time                                                12.94
+  data arrival time                                                 -8.36
+  --------------------------------------------------------------------------
+  slack (MET)                                                        4.58
+
+

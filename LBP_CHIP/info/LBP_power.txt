@@ -1,0 +1,62 @@
+****************************************
+Report : power
+        -analysis_effort low
+Design : LBP
+Version: P-2019.03
+Date   : Sat Oct 23 15:01:32 2021
+****************************************
+
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ff1p98vm40c (File: /mnt4/CBDK018_UMC_Faraday_v1.1_all/CBDK018_UMC_Faraday_v1.1/CIC/SynopsysDC/db/fsa0m_a_generic_core_ff1p98vm40c.db)
+
+
+Operating Conditions: BCCOM   Library: fsa0m_a_generic_core_ff1p98vm40c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+LBP                    enG5K             fsa0m_a_generic_core_ff1p98vm40c
+FSM                    enG5K             fsa0m_a_generic_core_ff1p98vm40c
+GAC                    enG5K             fsa0m_a_generic_core_ff1p98vm40c
+GDM                    enG5K             fsa0m_a_generic_core_ff1p98vm40c
+LAC                    enG5K             fsa0m_a_generic_core_ff1p98vm40c
+DS                     enG5K             fsa0m_a_generic_core_ff1p98vm40c
+LAC_DW01_inc_0         enG5K             fsa0m_a_generic_core_ff1p98vm40c
+LAC_DW01_inc_1         enG5K             fsa0m_a_generic_core_ff1p98vm40c
+GAC_DW01_inc_0         enG5K             fsa0m_a_generic_core_ff1p98vm40c
+GAC_DW01_inc_1         enG5K             fsa0m_a_generic_core_ff1p98vm40c
+GAC_DW01_add_0         enG5K             fsa0m_a_generic_core_ff1p98vm40c
+GAC_DW01_add_1         enG5K             fsa0m_a_generic_core_ff1p98vm40c
+
+
+Global Operating Voltage = 1.98 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  = 924.6705 uW   (82%)
+  Net Switching Power  = 202.9851 uW   (18%)
+                         ---------
+Total Dynamic Power    =   1.1277 mW  (100%)
+
+Cell Leakage Power     =  29.4679 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.8770        1.9752e-02        1.2237e+04            0.8967  (  79.52%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  4.7705e-02            0.1832        1.7230e+04            0.2310  (  20.48%)
+--------------------------------------------------------------------------------------------------
+Total              0.9247 mW         0.2030 mW     2.9468e+04 pW         1.1277 mW

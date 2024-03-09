@@ -1,0 +1,251 @@
+STIL 1.0 {
+    Design 2005;
+}
+Header {
+    Title "Minimal STIL for design `LBP'";
+    Date "Fri Jan 14 21:26:07 2022";
+    Source "DFT Compiler P-2019.03";
+}
+Signals {
+    "SCAN_IN_1" In;
+    "clk" In;
+    "gray_data[0]" In;
+    "gray_data[1]" In;
+    "gray_data[2]" In;
+    "gray_data[3]" In;
+    "gray_data[4]" In;
+    "gray_data[5]" In;
+    "gray_data[6]" In;
+    "gray_data[7]" In;
+    "gray_ready" In;
+    "reset" In;
+    "test_se" In;
+    "SCAN_OUT_1" Out;
+    "finish" Out;
+    "gray_addr_qtr[0]" Out;
+    "gray_addr_qtr[1]" Out;
+    "gray_addr_qtr[2]" Out;
+    "gray_addr_qtr[3]" Out;
+    "gray_req" Out;
+    "lbp_addr_qtr[0]" Out;
+    "lbp_addr_qtr[1]" Out;
+    "lbp_addr_qtr[2]" Out;
+    "lbp_addr_qtr[3]" Out;
+    "lbp_data_qtr[0]" Out;
+    "lbp_data_qtr[1]" Out;
+    "lbp_valid" Out;
+}
+SignalGroups {
+    "_si" = '"SCAN_IN_1"' {
+        ScanIn;
+    }
+    "_so" = '"SCAN_OUT_1"' {
+        ScanOut;
+    }
+    "_clk" = '"clk" + "reset"';
+    "all_inputs" = '"SCAN_IN_1" + "clk" + "gray_data[0]" + "gray_data[1]" + 
+    "gray_data[2]" + "gray_data[3]" + "gray_data[4]" + "gray_data[5]" + 
+    "gray_data[6]" + "gray_data[7]" + "gray_ready" + "reset" + "test_se"';
+    "all_outputs" = '"SCAN_OUT_1" + "finish" + "gray_addr_qtr[0]" + 
+    "gray_addr_qtr[1]" + "gray_addr_qtr[2]" + "gray_addr_qtr[3]" + "gray_req" + 
+    "lbp_addr_qtr[0]" + "lbp_addr_qtr[1]" + "lbp_addr_qtr[2]" + 
+    "lbp_addr_qtr[3]" + "lbp_data_qtr[0]" + "lbp_data_qtr[1]" + "lbp_valid"';
+    "all_ports" = '"all_inputs" + "all_outputs"';
+    "_pi" = '"SCAN_IN_1" + "clk" + "gray_data[0]" + "gray_data[1]" + 
+    "gray_data[2]" + "gray_data[3]" + "gray_data[4]" + "gray_data[5]" + 
+    "gray_data[6]" + "gray_data[7]" + "gray_ready" + "reset" + "test_se"';
+    "_po" = '"SCAN_OUT_1" + "finish" + "gray_addr_qtr[0]" + "gray_addr_qtr[1]" + 
+    "gray_addr_qtr[2]" + "gray_addr_qtr[3]" + "gray_req" + "lbp_addr_qtr[0]" + 
+    "lbp_addr_qtr[1]" + "lbp_addr_qtr[2]" + "lbp_addr_qtr[3]" + 
+    "lbp_data_qtr[0]" + "lbp_data_qtr[1]" + "lbp_valid"';
+}
+ScanStructures {
+    ScanChain "1" {
+        ScanLength 171;
+        ScanIn "SCAN_IN_1";
+        ScanOut "SCAN_OUT_1";
+        ScanEnable "test_se";
+        ScanMasterClock "clk";
+        ScanInversion 1;
+    }
+}
+Timing {
+    WaveformTable "_default_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "clk" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "reset" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+}
+Procedures {
+    "capture" {
+        W "_default_WFT_";
+        C {
+            "all_inputs" = N0 \r9 N 0N;
+            "all_outputs" = \r14 X;
+        }
+        V {
+            "_pi" = \r13 #;
+        }
+        V {
+            "_po" = \r14 #;
+        }
+    }
+    "capture_clk" {
+        W "_default_WFT_";
+        C {
+            "all_inputs" = N0 \r9 N 0N;
+            "all_outputs" = \r14 X;
+        }
+        "forcePI" : V {
+            "_pi" = \r13 #;
+        }
+        "measurePO" : V {
+            "_po" = \r14 #;
+        }
+        C {
+            "SCAN_OUT_1" = X;
+            "finish" = X;
+            "gray_addr_qtr[0]" = X;
+            "gray_addr_qtr[1]" = X;
+            "gray_addr_qtr[2]" = X;
+            "gray_addr_qtr[3]" = X;
+            "gray_req" = X;
+            "lbp_addr_qtr[0]" = X;
+            "lbp_addr_qtr[1]" = X;
+            "lbp_addr_qtr[2]" = X;
+            "lbp_addr_qtr[3]" = X;
+            "lbp_data_qtr[0]" = X;
+            "lbp_data_qtr[1]" = X;
+            "lbp_valid" = X;
+        }
+        "pulse" : V {
+            "clk" = P;
+        }
+    }
+    "capture_reset" {
+        W "_default_WFT_";
+        C {
+            "all_inputs" = N0 \r9 N 0N;
+            "all_outputs" = \r14 X;
+        }
+        "forcePI" : V {
+            "_pi" = \r13 #;
+        }
+        "measurePO" : V {
+            "_po" = \r14 #;
+        }
+        C {
+            "SCAN_OUT_1" = X;
+            "finish" = X;
+            "gray_addr_qtr[0]" = X;
+            "gray_addr_qtr[1]" = X;
+            "gray_addr_qtr[2]" = X;
+            "gray_addr_qtr[3]" = X;
+            "gray_req" = X;
+            "lbp_addr_qtr[0]" = X;
+            "lbp_addr_qtr[1]" = X;
+            "lbp_addr_qtr[2]" = X;
+            "lbp_addr_qtr[3]" = X;
+            "lbp_data_qtr[0]" = X;
+            "lbp_data_qtr[1]" = X;
+            "lbp_valid" = X;
+        }
+        "pulse" : V {
+            "reset" = P;
+        }
+    }
+    "load_unload" {
+        W "_default_WFT_";
+        C {
+            "all_inputs" = N0 \r9 N 0N;
+            "all_outputs" = \r14 X;
+        }
+        "Internal_scan_pre_shift" : V {
+            "_clk" = 00;
+            "_si" = N;
+            "_so" = X;
+            "test_se" = 1;
+        }
+        Shift {
+            V {
+                "_clk" = P0;
+                "_si" = #;
+                "_so" = #;
+            }
+        }
+    }
+}
+MacroDefs {
+    "test_setup" {
+        W "_default_WFT_";
+        C {
+            "all_inputs" = \r13 N;
+            "all_outputs" = \r14 X;
+        }
+        V {
+            "clk" = 0;
+            "reset" = 0;
+        }
+        V {
+        }
+    }
+}
+
